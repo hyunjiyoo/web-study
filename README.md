@@ -1,3 +1,3 @@
 ### web-study
 
-solteee with byungkipark
+hyunjiyoo with byungkipark
