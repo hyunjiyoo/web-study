@@ -1,2 +1,3 @@
-# web-study
-summer semester project
+### web-study
+
+solteee with byungkipark
