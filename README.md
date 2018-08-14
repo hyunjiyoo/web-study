@@ -1,3 +1,3 @@
-### web-study) solteee
+### web-study
 
-private branch
+solteee with byungkipark
