@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>absolute 키워드 적용</title>
+    <style>
+        /* position속성에 absolute 키워드 적용하면 부모 태그가 영역을 차지하지 않습니다.
+           따라서 자손의 positon 속성에 absolute 적용할 때는 부모에게 height 속성을 입력합니다. (부모태그 영역차지)
+           부모 positon 속성에 relative 키워드를 적용하면 자식이 부모위치를 기준으로 절대위치좌표를 설정.
+         */
+        .box {
+            width: 100px; height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1) {
+            background-color: red;
+            left: 10px; top: 10px;
+            z-index: 100; /* 숫자가 클수록 앞에 위치 */
+        }
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px; top: 50px;
+            z-index: 10;
+        }
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 90px; top: 90px;
+            z-index: 1;
+        }
+
+        body > div {
+            width: 400px; height: 100px;
+            border: 3px solid black;
+            position: relative;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor amet.</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor amet.</h1>
+</body>
+</html>
