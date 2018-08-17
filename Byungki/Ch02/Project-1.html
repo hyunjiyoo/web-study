@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <style>
+        * { margin: 0; padding: 0;}
+
+        /* navigation영역 */
+        #navi {
+            overflow: hidden;
+            height: 50px;
+            background-color: rebeccapurple;
+        }
+        div.header_item:nth-child(1) {
+            float: left;
+            margin-top: 20px;
+            margin-left: 50px;
+            color: white;
+        }
+        div.header_item {
+            float: left;
+            margin: 20px 10px;
+            color: white;
+        }
+        #navi > img {
+            width: 30px;
+            height: 30px;
+            float: right;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+
+        /* header 영역 */
+        #header {
+            overflow: hidden;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #header > p:nth-child(1) {
+            font-size: 3em;
+            font-weight: bold;
+            overflow: hidden;
+            float: left;
+            margin-top: 3px;
+            margin-left: 30px;
+        }
+        #header > div {
+            overflow: hidden;
+            float: right;
+        }
+        #header > div > p {
+            float: left;
+            font-size: 1.5em;
+            margin-top: 45px;
+            margin-right: 20px;
+        }
+        #header > div > p:nth-child(3) {
+            float: left;
+            font-size: 1.5em;
+            margin-top: 45px;
+            margin-right: 60px;
+        }
+        #header > input {
+            float: left;
+            height: 35px;
+            width: 420px;
+            border: 1px solid blue;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #header > #search {
+            float: left;
+            width: 50px;
+            height: 50px;
+            margin-top: 15px;
+        }
+
+        /* middle 영역 */
+        #middle {
+            height: 800px;
+            border: 1px solid black;
+        }
+        /* bottom 영역 */
+        #bottom {
+            margin: 10px auto;
+            height: 80px;
+            width: 95%;
+            background-color: rebeccapurple;
+            text-align: center;
+            padding-top: 40px;
+            font-size: 1.5em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div id="navi">
+    <div class="header_item">Home</div>
+    <div class="header_item">Mail</div>
+    <div class="header_item">Flickr</div>
+    <div class="header_item">Tumblr</div>
+    <div class="header_item">Answers</div>
+    <div class="header_item">Groups</div>
+    <div class="header_item">Games</div>
+    <div class="header_item">Movies</div>
+    <div class="header_item">Mobile</div>
+    <div class="header_item">More</div>
+    <img src="img/menu.png" alt=".">
+</div>
+<div id="header">
+    <p>MY BLOG</p>
+    <input type="text">
+    <img id="search" src="img/search.png" alt=".">
+    <div>
+        <p>My Page</p>
+        <p>Sign In</p>
+        <p>Mail</p>
+    </div>
+
+</div>
+<div id="middle">
+    <div id="left_menu"></div>
+    <div id="center_banner"></div>
+    <div id="right_banner"></div>
+</div>
+<div id="bottom">
+    <p>Copyright @ All Rights Reserved</p>
+</div>
+</body>
+</html>
