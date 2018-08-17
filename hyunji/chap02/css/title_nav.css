@@ -1,0 +1,46 @@
+#title {
+    margin-top: 15px;
+}
+
+#title > h1 {
+    font-family: "Bell MT";
+    float: left;
+    margin-right: 15px;
+}
+
+#title > input {
+    width: 400px; height: 25px;
+    float: left;
+}
+
+#title > img {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#title > ul {
+    margin-right: 50px;
+    float: right;
+}
+
+#title > ul > li {
+    display: inline;
+    float: right;
+    margin-left: 20px;
+    color: grey;
+    font-size: 12px;
+}
+
+nav {
+    width: 100px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-right: 5px;
+}
+
+nav > ul > li {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'sans-serif';
+}

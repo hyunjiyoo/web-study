@@ -1,0 +1,15 @@
+footer {
+    height: 100px;
+    background-color: #39005C;
+    display: block;
+    position: relative;
+    bottom: -625px;
+}
+
+footer > div {
+    color: #ffffff;
+    font-size: 14px;
+    position: absolute;
+    line-height: 100px;
+    margin-left: 40%;
+}
