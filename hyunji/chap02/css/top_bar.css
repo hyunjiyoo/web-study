@@ -1,0 +1,39 @@
+/* top-bar css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    margin: auto 250px;
+}
+
+#top_bar {
+    background-color: #39005C;
+    height: 40px;
+}
+
+#top_bar > ul {
+    float: left;
+}
+
+#top_bar > ul > li {
+    color: #ffffff;
+    font-family: 'sans-serif';
+    font-size: 14px;
+    display: inline;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+#top_bar > img {
+    float: right;
+    color: #ffffff;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.margin_left { margin-left: 30px; }
+
+li { list-style: none; }
