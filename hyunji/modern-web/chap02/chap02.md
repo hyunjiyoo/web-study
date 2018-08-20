@@ -12,8 +12,6 @@
 8) 불: 참과 거짓을 표현할 때 사용하는 자료형
 9) 변수: 값을 저장할 때 사용하는 식별자
 
-<br>
-
 ---
 ### 논리 연산자   
 - 논리곱 연산자
@@ -35,12 +33,12 @@
 | false | false | false |
 
 #### 비교 연산자 주의
-```$xslt
+```js
 <script>
     alert(30 > 20 > 10);
 </script>
 ```
-```$xslt
+```js
 alert( (30>20) > 10 );
 alert( true > 10 );
 alert ( 1 > 10 );
@@ -56,7 +54,7 @@ alert(false);
 - 객체
 - undefined
 
-```$xslt
+```js
 <script>
     var StringVar = 'String';
     var numberVar = 273;
