@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4장 연습문제-01</title>
+    <script>
+        var startTime = new Date().getHours();
+
+        while(true) {
+            if(startTime < 12) {
+                var input = prompt('오전 일과가 무엇입니까?', '');
+                if (!(input.indexOf("잘 있어"))) {
+                    alert('프로그램 종료');
+                    break;
+                }
+                alert(input);
+            } else if (startTime < 18) {
+                var input = prompt('오후 일과가 무엇입니까?', '');
+                if (!(input.indexOf("잘 있어"))) {
+                    alert('프로그램 종료');
+                    break;
+                }
+                alert(input);
+            } else if (startTime < 24) {
+                var input = prompt('저녁 일과가 무엇입니까?', '');
+                if (!(input.indexOf("잘 있어"))) { // input.indexOf("잘 있어") => 0(=false)
+                    alert('프로그램 종료');
+                    break;
+                }
+                alert(input);
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

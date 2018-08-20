@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>continue 키워드2</title>
+    <script>
+        var output = 0;
+
+        // 0~10까지 짝수의 합 구하기.
+        for(var i=1; i<=10; i++) {
+            if(i%2 == 1) {
+                // 홀수이면 현재 반복을 중지하고 다음반복 수행.
+                continue;
+            }
+            output += i;
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
