@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>수우미양가 구분</title>
+    <script>
+        var kor = Number(prompt('국어점수를 입력하세요.', input));
+        var math= Number(prompt('수학점수를 입력하세요.', input));
+        var eng = Number(prompt('영어점수를 입력하세요.', input));
+        var avg = (kor+math+eng) / 3;
+
+        if (avg >= 90) {
+            alert('"수" 입니다.');
+        } else if (avg >= 80) {
+            alert('"우" 입니다.');
+        } else if (avg >= 70) {
+            alert('"미" 입니다.');
+        } else if (avg >= 60) {
+            alert('"양" 입니다.');
+        } else if (avg >= 50) {
+            alert('"가" 입니다.');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

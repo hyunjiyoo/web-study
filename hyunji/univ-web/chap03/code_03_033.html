@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>유동형 레이아웃</title>
+    <style>
+        body {
+            background: #ccc;
+        }
+        #wrapper {
+            width: 96%; /* 너비값을 브라우저의 96%로 지정 */
+            margin: 0 auto;
+            background-color: white;
+        }
+        header {
+            width: 100%; /* wrapper 너비의 100% */
+            height: 120px;
+            background-color: #f5f4e0;
+            border-bottom: 1px solid black;
+        }
+        header h1 {
+            padding-top: 3.1%; /* padding-top을 3.1% ((30px/960px)*100)로 지정 */
+            padding-left: 12.5%;
+        }
+        .header1 {
+            font-size: 2.5em; /* font-size를 2.5em (40px/16px)으로 지정 */
+            font-family: "Comic Sans MS";
+        }
+        article {
+            float: left;
+            width: 62.5%;
+            padding: 2.0%;
+        }
+        aside {
+            float: right;
+            width: 31.25%;
+            padding: 0.09%;
+            background-color: #d7e4e0;
+            border-left: 2px dotted black;
+        }
+        footer {
+            clear: both;
+            background: #677b75;
+            padding: 0.1%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 class="header1">Fixed-width Layout</h1>
+        </header>
+        <section>
+            <article>
+                <p>실제 내용이 표시됩니다.</p>
+                <p>실제 내용이 표시됩니다.</p>
+                <p>실제 내용이 표시됩니다.</p>
+                <p>실제 내용이 표시됩니다.</p>
+                <p>실제 내용이 표시됩니다.</p>
+            </article>
+            <aside>
+                <p>사이드바의 내용이 표시됩니다.</p>
+                <p>사이드바의 내용이 표시됩니다.</p>
+                <p>사이드바의 내용이 표시됩니다.</p>
+                <p>사이드바의 내용이 표시됩니다.</p>
+                <p>사이드바의 내용이 표시됩니다.</p>
+                <p>사이드바의 내용이 표시됩니다.</p>
+            </aside>
+        </section>
+        <footer>
+            <address>제작자 연락처 정보</address>
+            <p>저작권 정보 및 주소</p>
+        </footer>
+    </div>
+</body>
+</html>
