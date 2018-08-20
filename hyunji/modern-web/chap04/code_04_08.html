@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>외부에서 조건 변경</title>
+    <script>
+        var value = 0;
+        // 현재시각을 변수 startTime에 저장.
+        var startTime = new Date().getTime();
+
+        // (실시간시간 < 현재시간 + 1초) 이면 value++;
+        // 1초후 반복문 종료!
+        while(new Date().getTime() < startTime + 1000) { value++; }
+
+        alert(value);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

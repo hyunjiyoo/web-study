@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for 반복문의 특이한 사용법</title>
+    <script>
+        var startTime = new Date().getTime();
+
+        // 1초동안 반복문이 몇 회 반복되는지 표시해 브라우저의 성능 측정.
+        for (var cps=0; new Date().getTime() < startTime + 1000; cps++) {
+            alert('초 당 연산 횟수: ' + cps);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
