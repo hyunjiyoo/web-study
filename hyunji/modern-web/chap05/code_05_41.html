@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트의 실행순서</title>
+    <script>
+        // A -> C -> B
+        alert('A');
+        setTimeout(function () {
+            alert('B');
+        }, 0);
+        alert('C');
+        /*
+        타이머함수와 웹요청관련함수는 웹브라우저가 처리하고 처리가 완료되었다는 것을 자바스크립트에 알려줍니다.
+        이러한 함수는 현재 실행중인 다른 코드의 실행이 끝나기 전엔 실행되지 않습니다.
+         */
+    </script>
+</head>
+<body>
+
+</body>
+</html>

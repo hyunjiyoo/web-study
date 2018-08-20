@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>선언적 함수와 익명 함수의 순서</title>
+    <script>
+        /* 선언적 함수가 먼저 생성되고 익명 함수 생성된다!!! */
+        var 함수 = function () {
+            alert('함수 A');
+        };
+        function 함수() {
+            alert('함수 B');
+        }
+        함수(); // 함수A 실행
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>배열을 전개해서 매개변수로 전달하기</title>
+    <script>
+        // 함수선언
+        function test(a,b,c,d) {
+            alert(`${a}:${b}:${c}:${d}`);
+        }
+        // 배열 선언
+        var array = [1,2,3];
+
+        // 앞에 다른 매개변수를 넣고 뒤를 배열로 채우기
+        test(273, 52, ...array); // 273:52:1:2
+
+        // 배열을 병합해서 매개변수로 전달하기
+        test(...array, ...array); // 1:2:3:1
+    </script>
+</head>
+<body>
+
+</body>
+</html>

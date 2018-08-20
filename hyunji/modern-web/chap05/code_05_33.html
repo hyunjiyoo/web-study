@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eval() 함수 활용</title>
+    <script>
+        var willEval = '';
+        willEval += 'var number = 10;';
+        willEval += 'alert(number);';
+
+        eval(willEval);
+
+        // eval() 함수로 호출한 코드의 변수를 사용.
+        alert(number);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

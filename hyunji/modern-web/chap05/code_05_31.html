@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>인코딩과 디코딩 함수</title>
+    <script>
+        /*
+        - escape() : 영문 알파벳과 숫자, 일부 특수문자를 제외하고 모두 인코딩 & 1바이트 문자는 %XX, 2바이트 문자는 %uXXXX
+        - encodeURI() : escape() 함수에서 인터넷 주소에 사용되는 일부 특수 문자는 변환 안함.
+        - encodeURIComponent() : 알파벳과 숫자를 제외한 모든 문자 인코딩 & UTF-8 인코딩.
+         */
+
+        // 인코딩할 URL을 만듭니다.
+        var URI = 'http://hanbit.co.kr?test=한글입니다.';
+
+        // 출력할 문자열을 만듭니다.
+        var output = '';
+        output += '*escape()\n';
+        output += escape(URI) + '\n\n';
+        output += '*encodeURI()\n';
+        output += encodeURI(URI) + '\n\n';
+        output += '*encodeURIComponent()\n';
+        output += encodeURIComponent(URI) + '\n\n';
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

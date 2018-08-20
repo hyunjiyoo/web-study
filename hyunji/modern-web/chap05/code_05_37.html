@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NaN 값 비교</title>
+    <script>
+        // NaN은 자신을 비교할 수 없다.
+        if (NaN == NaN) {
+            alert('NaN == NaN');
+        } else {
+            alert('NaN != NaN');
+        }
+        // 따라서, isNaN() 함수 사용.
+        if (isNaN(NaN)) {
+            alert('NaN == NaN');
+        } else {
+            alert('NaN != NaN');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

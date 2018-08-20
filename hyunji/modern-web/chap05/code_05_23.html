@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>익명 함수를 매개변수로 전달</title>
+    <script>
+        /*
+        콜백함수는 익명함수로 사용하는 경우가 많음.
+        매개변수에 익명함수를 곧바로 입력할 수도 있음.
+         */
+        function callTenTimes(callback) {
+            for(var i=0; i<10; i++) {
+                // 매개변수로 전달된 함수 호출
+                callback();
+            }
+        }
+        // 변수 선언 (익명함수)
+        var callback = function () {
+            alert('함수 호출');
+        };
+
+        callTenTimes(callback);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

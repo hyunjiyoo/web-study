@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>클로저2</title>
+    <script>
+        function test(name) {
+            var output = 'Hello ' + name + ' ..! ';
+            return function () {
+                alert(output);
+            };
+        }
+
+        var test1 = test('Web');
+        var test2 = test('JavaScript');
+
+        test1(); // Hello Web ..!
+        test2(); // Hello JavaScript ..!
+    </script>
+</head>
+<body>
+
+</body>
+</html>

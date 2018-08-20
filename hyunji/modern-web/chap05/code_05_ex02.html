@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5장 연습문제-02</title>
+    <script>
+        function power(a, b) {
+            if (b) {
+                // 매개변수가 둘이라면
+                var output = 1;
+                for (var i = 0; i < b; i++) {
+                    // a를 b만큼 곱해준다. (a의 b제곱)
+                    output = output * a;
+                }
+                return output;
+            } else {
+                // 매개변수가 하나라면
+                return a * a;
+            }
+        }
+
+        function multiply() {
+            var output = 1;
+            // 매개변수의 개수 모르니까 arguments.length 만큼 반복하도록 설정.
+            for (var i = 0; i < arguments.length; i++) {
+                output = output * arguments[i];
+            }
+            return output;
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
