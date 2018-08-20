@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>내부 함수</title>
+    <script>
+        /*
+        내부 함수 이용시 함수 외부에 이름이 같은 함수 있어도 내부 함수 우선 실행.
+        단, 내부 함수는 내부 함수를 포함하는 함수에서만 사용가능!!! (로컬 변수처럼..)
+         */
+        function pythagoras(width, height) {
+            function square(x) {
+                return x*x;
+            }
+            return Math.sqrt(square(width) + square(height));
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

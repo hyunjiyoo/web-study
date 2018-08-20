@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>return 키워드 뒤에 값 입력하지 않을 경우</title>
+    <script>
+        function returnFuction() {
+            return;
+            alert('문장 A');
+            alert('문장 B');
+        }
+        var output = returnFuction();
+        alert(typeof (output) + ' : ' + output); // undefined : undefined
+    </script>
+</head>
+<body>
+
+</body>
+</html>

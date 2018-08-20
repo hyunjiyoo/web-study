@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>익명 콜백 함수</title>
+    <script>
+        function callTenTimes(callback) {
+            for(var i = 0; i < 10; i++) {
+                callback();
+            }
+        }
+        // 함수의 매개변수에 익명함수 곧바로 입력.
+        callTenTimes(function () {
+            alert('함수호출');
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

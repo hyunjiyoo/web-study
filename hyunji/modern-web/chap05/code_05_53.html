@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>일반 매개변수와 전개연산자 매개변수 조합</title>
+    <script>
+        // 조합해서 사용할 시, 가장 뒤에 딱 하나만 사용!
+        function test(a, b, ...numbers) {
+            alert(numbers); // number = [3,4,5,6];
+        }
+        test(1,2,3,4,5,6);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

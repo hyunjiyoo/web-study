@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>익명 함수를 리턴하는 함수</title>
+    <script>
+        function returnFunction() {
+
+            return function () {
+                alert('Hello Function...!!');
+            }
+        }
+
+        alert(returnFunction()); // return 값 보여줌.
+        returnFunction()(); // return 값 실행 (= 익명함수 실행)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
