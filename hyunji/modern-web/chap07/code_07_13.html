@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>캡슐화</title>
+    <script>
+        function Rectangle(w, h) {
+            // 변수 선언
+            var width = w;
+            var height = h;
+
+            // 메서드 선언
+            this.getWidth = function () {
+                return width;
+            };
+            this.getHeight = function () {
+                return height;
+            };
+            this.setWidth = function (w) {
+                width = w;
+            };
+            this.setHeight = function (h) {
+                height = h;
+            };
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7장 연습문제-01</title>
+    <script>
+        // 생성자 함수 선언
+        function Product(name, weight, price) {
+            this.name = name;
+            this.weight = weight;
+            this.price = price;
+        }
+
+        // 프로토타입으로 지정.
+        Product.prototype.calculate = function (weight) {
+            return this.price * (weight / this.weight);
+        };
+
+        var product = new Product('돼지삼겹살', 100, 1690);
+        alert(product.calculate(200));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

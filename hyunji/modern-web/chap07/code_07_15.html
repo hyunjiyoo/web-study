@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>생성자 함수 Square 선언</title>
+    <script>
+        function Square(length) {
+            this.width = length;
+            this.height = length;
+        }
+
+        Square.prototype.getArea = function () {
+            return this.getWidth() * this.getHeight();
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>

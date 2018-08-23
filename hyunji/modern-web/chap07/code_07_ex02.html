@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7장 연습문제-02</title>
+    <script>
+        let number = 273;
+        number.print = function () {
+            console.log(this);
+        };
+
+        // 오류 발생 (기본자료형에는 메서드를 추가해도 추가되지 않기 때문)
+        number.print();
+        number.print();
+        number.print();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
