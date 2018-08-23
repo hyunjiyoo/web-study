@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>상속</title>
+    <script>
+        function Rectangle(w, h) {
+            var width = w;
+            var height = h;
+
+            this.getWidth = function () {
+                return width;
+            };
+            this.getHeight = function () {
+                return height;
+            };
+            this.setWidth = function (w) {
+                if(w < 0) {
+                    throw '길이는 음수일 수 없습니다.';
+                } else {
+                    return width = w;
+                }
+            };
+            this.setHeight = function (h) {
+                if(h < 0) {
+                    throw '길이는 음수일 수 없습니다.';
+                } else {
+                    return height = h;
+                }
+            };
+        }
+
+        Rectangle.prototype.getArea = function () {
+            return this.getWidth() * this.getHeight();
+        };
+    </script>
+    <script>
+        // 생성자 함수 선언
+        function Square(length) {
+            this.base = Rectangle;
+            this.base(length, length);
+        }
+
+        Square.prototype = Rectangle.prototype;
+        Square.prototype.constructor = Square;
+
+        var rectangle = new Rectangle(5,7);
+        var square = new Square(5);
+        alert(rectangle.getArea() + ':' + square.getArea() + ':' + square.constructor());
+        alert(square instanceof Rectangle); // true (상속이 되었는지 확인)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
