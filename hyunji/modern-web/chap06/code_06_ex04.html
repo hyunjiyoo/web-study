@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6장 연습문제-04</title>
+    <script>
+        // 객체 생성
+        var self = {
+            이름: '유현지',
+            성별: '여자',
+            나이: 28,
+            사는곳: '용인수지',
+            취미: '전시관람, 캘리그라피',
+            특기: '요리, 정리',
+            꿈: '섬마을에서 살기'
+        };
+
+        // 객체 출력
+        var output = '';
+        with(self) {
+            output += '이름: ' +  이름 + '\n';
+            output += '성별: ' +  성별 + '\n';
+            output += '나이: ' +  나이 + '\n';
+            output += '사는곳: ' +  사는곳 + '\n';
+            output += '취미: ' +  취미 + '\n';
+            output += '특기: ' +  특기 + '\n';
+            output += '꿈: ' +  꿈 + '\n';
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

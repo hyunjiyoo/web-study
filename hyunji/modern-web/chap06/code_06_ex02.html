@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6장 연습문제-02</title>
+    <script>
+        var insects = [];
+
+        function makeArray(name, mineral, gas, supply) {
+            var willReturn = {
+                // 속성
+                이름: name,
+                미네랄: mineral,
+                가스: gas,
+                보급품: supply,
+
+                toString: function () {
+                    return this.이름 + ', ' + this.미네랄 + ', ' + this.가스 + ', ' + this.보급품;
+                }
+            };
+            return willReturn;
+        }
+
+        insects.push(makeArray('일벌레', 50, 0, 1));
+        insects.push(makeArray('여왕', 150, 0, 2));
+        insects.push(makeArray('바퀴', 75, 25, 2));
+        insects.push(makeArray('히드라리스크', 100, 50, 2));
+        insects.push(makeArray('타락귀', 150, 100, 2));
+
+        var output = '';
+        for(var i in insects) {
+            output += insects[i].toString() + '\n';
+        }
+        alert(output);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

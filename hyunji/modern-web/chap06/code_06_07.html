@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>this 키워드</title>
+    <script>
+        // 메서드 내에서 자기 자신의 속성을 출력하고 싶을땐 this 키워드 사용.
+        var person = {
+            name: '윤인성',
+            eat: function (food) {
+                alert(this.name + '이 ' + food + '을/를 먹습니다.');
+            }
+        };
+        // 메서드 호출
+        person.eat('밥');
+    </script>
+</head>
+<body>
+
+</body>
+</html>

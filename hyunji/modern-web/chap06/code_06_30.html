@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>객체(배열포함)의 참조 복사 - 얕은 복사</title>
+    <script>
+        var originalArray = [1,2,3,4];
+
+        var newArray = originalArray;
+
+        originalArray[0] = 273;
+
+        alert(originalArray);
+        alert(newArray);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

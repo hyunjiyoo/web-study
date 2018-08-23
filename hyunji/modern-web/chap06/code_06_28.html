@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>옵션 객체 초기화</title>
+    <script>
+        // 함수를 선언합니다.
+        function test(options) {
+            // 옵션객체 초기화
+            options.valueA = options.valueA || 10;
+            options.valueB = options.valueB || 20;
+            options.valueC = options.valueC || 30;
+
+            // 출력
+            alert(options.valueA + ':' + options.valueB + ':' + options.valueC); // 52:20:273
+        }
+
+        // 함수 호출
+        test({
+            valueA: 52,
+            valueC: 273
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
