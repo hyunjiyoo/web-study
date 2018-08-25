@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // a, j, A, J 문자 모두 대체
+        var regExp = /[aj]/ig;
+        var string = 'Javascript jQuery Ajax';
+
+        var output = string.replace(regExp, '+$&+');
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
