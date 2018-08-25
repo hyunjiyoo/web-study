@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 변수 선언
+        var array = [1,2,3,4,5,6,7,8,9,10];
+
+        // 함수 선언
+        function lessThanFive(element, index, array) {
+            return element < 5;
+        }
+        function lessThanTwenty(element, index, array) {
+            return element < 20;
+        }
+
+        /*
+        every() - 모든 요소가 true이면 true, 아니면 false
+        some() - 하나라도 true이면 true, 아니면 false
+         */
+        // 메서드 사용
+        var output1 = array.every(lessThanFive); // false
+        var output2 = array.every(lessThanTwenty); // true
+        var output3 = array.some(lessThanFive); // true
+        var output4 = array.some(lessThanTwenty); // true
+
+        var output = '';
+        output += output1 + ' : ' + output2 + '\n';
+        output += output3 + ' : ' + output4;
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
