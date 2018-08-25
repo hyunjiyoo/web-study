@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // . 은 아무글자를 나타내는 메타문자 입니다.
+        var regExp = /......-......./;
+        var string = '910209-2001211';
+
+        var output = string.replace(regExp, '+$&+');
+
+        alert(output); // +910209-2001211+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
