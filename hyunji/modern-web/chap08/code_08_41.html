@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>프로토타입에 날짜 간격을 구하는 메서드 추가</title>
+    <script>
+        // Date 생성자 함수의 프로토타입에 메서드 추가.
+        Date.prototype.getInterval = function (otherDate) {
+            var interval;
+
+            // 양수로 날짜 간격을 구하려고 조건물을 사용합니다.
+            if (this > otherDate) {
+                interval = this.getTime() - otherDate.getTime();
+            } else {
+                interval = otherDate.getTime() - this.getTime();
+            }
+            return Math.floor(interval / (1000*60*60*24));
+        };
+
+        var now = new Date();
+        var before = new Date('December 9, 1991');
+
+        alert('Interval: ' + now.getInterval(before) + '일');
+    </script>
+</head>
+<body>
+
+</body>
+</html>
