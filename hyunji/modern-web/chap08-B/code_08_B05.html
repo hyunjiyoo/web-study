@@ -7,9 +7,11 @@
         var regExp = /a/;
         var string = 'Javascript jQuery Ajax';
 
-        var output = string.replace(regExp, '+$&+');
+        var output = string.replace(regExp, function (value) {
+            return '+' + value + '+';
+        });
 
-        alert(output); // J+a+vascript jQuery Ajax
+        alert(output);
     </script>
 </head>
 <body>
