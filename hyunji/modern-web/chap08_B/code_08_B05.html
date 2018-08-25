@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var regExp = /a/;
+        var string = 'Javascript jQuery Ajax';
+
+        // replace(매개변수를 함수로 사용)
+        var output = string.replace(regExp, function (value) {
+            return '+' + value + '+';
+        });
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

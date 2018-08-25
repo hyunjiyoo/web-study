@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // ^j - j로 시작하는 부분 찾는다.
+        // ig - 대소문자 가리지않고 전역비교 수행. (한줄만 수행)
+        var regExp = /^j/ig;
+        var string = 'Javascript\njQuery\nAjax';
+
+        var output = string.replace(regExp, '+$&+');
+
+        alert(output); //+J+avascript \n jQuery \n Ajax
+    </script>
+</head>
+<body>
+
+</body>
+</html>

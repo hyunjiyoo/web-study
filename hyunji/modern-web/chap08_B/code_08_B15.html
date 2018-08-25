@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var string = prompt('소문자 또는 숫자로만 구성된 단어를 입력하세요.', '단어');
+        var regExp = /([0-9]|[a-z])/g;
+
+        if (string.replace(regExp, '').length == 0) {
+            alert('감사합니다.');
+        } else {
+            alert('ㅇㅁㅇ');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

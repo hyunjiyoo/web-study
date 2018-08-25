@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function isKoreanName(string) {
+            var regExp = /([가-힣])/g;
+
+            // 모든 한글을 빈 문자열로 바꾼다.
+            var replacedString = string.replace(regExp, '');
+
+            // 빈문자열로 바뀌었으면 길이는 0 => true 리턴.
+            if (replacedString.length == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        alert(isKoreanName('윤인성'));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
