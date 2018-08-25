@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /* 플래그 문자
+        g - 전역비교 수행
+        i - 대소문자 가리지않고 비교
+        m - 여러줄 검사 수행
+         */
+        var regExp = /a/ig;
+        var string = 'Javascript jQuery Ajax';
+
+        // 대소문자 가리지않고 모든 a(A)에 두번째 매개변수 문자열 교체.
+        var output = string.replace(regExp, '+$&+');
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
