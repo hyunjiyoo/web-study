@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>잘못된 String 객체의 메서드 사용</title>
+    <script>
+        var string = 'abcdefg';
+
+         // string.toUpperCase(); 대문자로 바꿔주고 string 변수에 다시 담지 않았기때문에 그냥 출력하면 오류!!
+        string = string.toUpperCase();
+        alert(string);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

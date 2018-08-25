@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sort() 메서드의 정렬 방식 지정</title>
+    <script>
+        var array = [52,273,103,32];
+        // 이 함수로 quick sort 또는 merge sort 와 같은 정렬 진행.
+        array.sort(function (left, right) {
+            return left - right;
+        });
+
+        alert(array); // [32,52,103,273] 오름차순으로 정렬됨.
+    </script>
+</head>
+<body>
+
+</body>
+</html>
