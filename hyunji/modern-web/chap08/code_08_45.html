@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var array = [1,2,3,4,5,5,4,3,2,1];
+
+        var output1 = array.indexOf(4); // 앞쪽부터 '4' 있는지 검사하여 인덱스 리턴 = 3
+        var output2 = array.indexOf(8); // 없으니 -1 리턴
+        var output3 = array.lastIndexOf(4); // 뒤쪽부터 '4' 있는지 검사하여 인덱스 리턴 = 6
+        var output4 = array.lastIndexOf(8); // 없으니 -1 리턴
+
+        var output = '';
+        output += output1 + ' : ' + output2 + '\n';
+        output += output3 + ' : ' + output4;
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

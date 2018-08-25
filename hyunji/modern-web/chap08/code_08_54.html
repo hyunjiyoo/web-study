@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var object = {
+            name: '윤인성',
+            region: '서울특별시'
+        };
+
+        // 자바스크립트 객체를 JSON으로 바꾼후 다시 JS 객체로 바꾼다.
+        var copy = JSON.parse(JSON.stringify(object));
+
+        alert(copy.name + ' : ' + copy.region);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

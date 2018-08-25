@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>학생 성적 정렬</title>
+    <script>
+        function Student(name, korean, math, english, science) {
+            // 속성
+            this.이름 = name;
+            this.국어 = korean;
+            this.수학 = math;
+            this.영어 = english;
+            this.과학 = science;
+
+            // 메서드
+            this.getSum = function () {
+                return this.국어 + this.수학 + this.영어 + this.과학;
+            };
+            this.getAverage = function () {
+                return this.getSum() / 4;
+            };
+            this.toString = function () {
+                return this.이름 + '\t' + this.getSum() + '\t' + this.getAverage();
+            };
+        }
+
+        var students = [];
+        students.push(new Student('윤하린', 96,98,92,98));
+        students.push(new Student('유현지', 90,87,85,93));
+        students.push(new Student('김영미', 82,78,86,99));
+        students.push(new Student('윤명월', 92,94,88,98));
+
+        alert(students[0] + students[1] + students[2] + students[3]);
+        // 정렬하고 1등부터 3등까지만 배열에 남겨둡니다.
+        students.sort(function (left, right) {
+            return right.getSum() - left.getSum(); // 총점을 내림차순 정렬
+        });
+        students = students.slice(0,3);
+
+        // 출력
+        var output = '이름\t총점\t평균\n';
+        for (var i in students) {
+            output += students[i].toString() + '\n';
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

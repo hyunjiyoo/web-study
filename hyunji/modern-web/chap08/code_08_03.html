@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>생성자 함수에 메서드 추가</title>
+    <script>
+        var primitiveNumber = 273;
+        var objectNumber = new Number(273);
+
+        // 기본 자료형에는 프로토타입으로 메서드 생성
+        Number.prototype.method = function () {
+            return 'Method on Prototype'
+        };
+
+        var output = '';
+        output += primitiveNumber.method() + '\n';
+        output += objectNumber.method();
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

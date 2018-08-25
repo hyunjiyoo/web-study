@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>toString() 메서드 재선언</title>
+    <script>
+        var student = {
+            name: '윤명월',
+            grade: '대학교 1학년',
+            toString: function () {
+                return this.name + ' : ' + this.grade;
+            }
+        };
+
+        // 호출 결과 같다. 모든 객체는 toString() 메서드 자동 호출
+        alert(student);
+        alert(student.toString());
+    </script>
+</head>
+<body>
+
+</body>
+</html>
