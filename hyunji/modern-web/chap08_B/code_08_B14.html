@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // (na)+ : (na)가 적어도 한개 이상
+        var regExp = /(na)+/;
+        var string = 'banana';
+
+        var output = string.replace(regExp, '+$&+');
+
+        alert(output); // ba+nana+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
