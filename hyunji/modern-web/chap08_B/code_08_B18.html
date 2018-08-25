@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 숫자 천 단위 점 찍기.
+        function addComma(number) {
+            var regExp = /(^[+-]?\d+)(\d{3})/;
+            var string = String(number);
+
+            while (regExp.test(string)) {
+                string = string.replace(regExp, '$1,$2');
+                alert(string);
+            }
+            return string;
+        }
+
+        alert(addComma('10000000000'));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
