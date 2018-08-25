@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var students = [
+            { 이름: '윤인성', 국어: 87, 수학: 98, 영어: 88, 과학: 95},
+            { 이름: '서준서', 국어: 85, 수학: 77, 영어: 99, 과학: 80},
+            { 이름: '유현지', 국어: 87, 수학: 98, 영어: 88, 과학: 95}
+        ];
+
+        // 과학 성적이 90점 넘는 학생 필터링
+        var filteredA = students.filter(function (item) {
+            return item > 90;
+        });
+        alert(filteredA);
+
+        // 평균이 90점 넘는 학생 필터링
+        var filteredB = students.filter(function (item) {
+            return ((item.국어 + item.수학 + item.영어 + item.과학) / 4) > 90;
+        });
+        alert(filteredB);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
