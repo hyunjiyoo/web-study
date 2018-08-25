@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var object = {
+            name: 'object',
+            prop: 'object',
+            toJSON: function () {
+                return {
+                    custom: 'custom'
+                };
+            }
+        };
+        /*
+        JSON.stringify() 에 넣은 객체에
+        toJSON() 메서드 없으면 객체 전체 리턴하지만,
+        있으면 toJSON 에서 리턴한 객체 변환.
+         */
+        alert(JSON.stringify(object));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
