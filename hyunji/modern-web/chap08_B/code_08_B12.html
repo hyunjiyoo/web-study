@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // [1234]는 숫자 1,2,3,4 중 하나 입력
+        var regExp = /\d\d\d\d\d\d-[1234]\d\d\d\d\d\d/;
+        var string = '910209-2001211';
+
+        var output = string.replace(regExp, '+$&+');
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
