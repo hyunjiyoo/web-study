@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체의 속성 지정2</title>
+    <script>
+        window.onload = function () {
+            var img = document.createElement('img');
+            img.setAttribute('src', 'Penguins.jpg');
+            img.setAttribute('width', 500);
+            img.setAttribute('height', 350);
+
+            // setAttribute() 메서드를 사용하지 않으면 불가능합니다.
+            // 'data-property' 는 웹 브라우저가 지원하는 속성이 아닙니다.
+            img.setAttribute('data-property', 350);
+
+            // 노드 연결
+            document.body.appendChild(img);
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>
