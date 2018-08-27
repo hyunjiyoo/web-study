@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>간단한 음악 재생 프로그램</title>
+    <script>
+        var audio = new Audio('Kalimba.mp3');
+    </script>
+</head>
+<body>
+    <button onclick="audio.play()">PLAY</button>
+    <button onclick="audio.pause()">PAUSE</button>
+    <input type="number" onchange="audio.currentTime=this.value" />
+    <input type="number" onchange="audio.volume=this.value" />
+</body>
+</html>
