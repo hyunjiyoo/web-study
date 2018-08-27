@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>강제로 발생시킨 예외 처리</title>
+    <script>
+        /*
+        예외를 강제로 발생 시키는 이유는
+        객체를 사용하는 사용자에게 주의를 줄 수 있고, 예외와 관련된 처리를 부탁할 수도 있다.
+        throw 키워드 - 예외 강제 발생
+         */
+        try {
+            throw 'DivideByZeroException';
+        } catch (e) {
+            if (e == 'DivideByZeroException') {
+                alert('ㅇㅁㅇ');
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

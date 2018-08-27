@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>finally 구문 내부에서 return 키워드 사용</title>
+    <script>
+        function test() {
+            try {
+                alert('A 위치입니다.');
+            } catch (exception) {
+                alert('B 위치입니다.');
+                return;
+            }
+            alert('C 위치입니다.');
+        }
+
+        test(); // A위치 -> B위치 : return키워드로 함수 벗어났으므로 C위치 출력안함.
+    </script>
+</head>
+<body>
+
+</body>
+</html>
