@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>인라인 이벤트 모델 - 디폴트 이벤트 제거</title>
+    <script>
+        function whenSubmit() {
+            // 변수 선언
+            var pass = document.getElementById('pass').value;
+            var passCheck = document.getElementById('pass-check').value;
+
+            // 비밀번호가 같은지 확인합니다.
+            if (pass == passCheck) {
+                alert('성공');
+            } else {
+                alert('다시 입력');
+                return false; // onsubmit 이벤트 실행 안됨. (입력양식 제출 안됨)
+            }
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return whenSubmit()">
+        <label for="name">이름</label>
+        <input type="text" name="name" id="name" /><br />
+        <label for="pass">비밀번호</label><br />
+        <input type="password" name="pass" id="pass" /><br />
+        <label for="pass-check">비밀번호 확인</label><br />
+        <input type="password" id="pass-check" /><br />
+        <input type="submit" value="제출" />
+    </form>
+</body>
+</html>
