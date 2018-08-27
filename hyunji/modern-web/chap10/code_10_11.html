@@ -14,6 +14,10 @@
 
             // innerHTML 속성에 문자열을 할당합니다.
             document.body.innerHTML = output;
+            document.body.innerHTML += '<h1>Document Object Model</h1>';
+
+            // textContent 속성은 html 태그까지 그대로 출력.
+            document.body.textContent = output;
         };
     </script>
 </head>
