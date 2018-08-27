@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>상대이동과 절대이동의 차이</title>
+    <script>
+        var child = window.open('', '', 'width=300, height=200');
+
+        // 왼쪽 위를 0, 0으로 위치.
+        child.moveTo(0, 0);
+
+        // 1초마다 왼쪽으로 10픽셀, 아래로 10픽셀씩 이동
+        setInterval(function () {
+            child.moveBy(10, 10);
+        }, 1000);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
