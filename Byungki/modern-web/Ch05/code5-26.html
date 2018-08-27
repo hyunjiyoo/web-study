@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // function test(name) {
+        //     var output = 'Hello' + name + '!!';
+        // }
+        // alert(output);
+
+        function test(name) {
+            var output = 'Hello ' + name +'!!';
+            return function () {
+                alert(output);
+            }
+        }
+        test('JavaScript')();
+
+        var test_1 = test('Web');
+        var test_2 = test('World');
+        test_1();
+        test_2();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

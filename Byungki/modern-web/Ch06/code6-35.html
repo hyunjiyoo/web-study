@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        const originalArray = [1,2,3,4,5];
+
+        const newArray = [...originalArray]; // 깊은복사
+
+        originalArray[0] = 52;
+        originalArray[1] = 273;
+        alert(originalArray);
+        alert(newArray);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

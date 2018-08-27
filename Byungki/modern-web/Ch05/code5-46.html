@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function test(a, b, c) {
+            if (!b) { b = 52; }
+            if (!c) { c = 273;}
+
+            alert(a + ':' + b + ':' + c);
+        }
+
+        function test2(a, b, c) {
+            b = b || 33;
+            c = c || 333;
+
+            alert(a + ':' + b + ':' + c);
+        }
+
+        test(1,2);
+        test2(45,77);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function clone(obj) {
+            var output = {};
+            for (var i in obj){
+                output[i] = obj[i];
+            }
+            return output;
+        }
+
+        var original = {a: 10, b: 20};
+        var referenced = original;
+        var cloned = clone(original);
+
+        original.a = 20;
+
+        alert(JSON.stringify(referenced, null, 2)); // 객체 참조여서 값 변경 => 얕은복사
+        alert(JSON.stringify(cloned, null, 2)); // 값을 저장한거여서 변경 안됨. => 깊은복사
+    </script>
+</head>
+<body>
+
+</body>
+</html>

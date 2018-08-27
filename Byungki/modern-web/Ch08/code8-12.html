@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var number = 273.5210332;
+
+        var output = '';
+        output += number.toFixed(1) + '\n'; // 소수 첫째자리 출력
+        output += number.toFixed(4) + '\n';
+        output += number.toExponential() + '\n'; // 2.735210332e+2
+        output += number.toPrecision(7); // 273.5210
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
