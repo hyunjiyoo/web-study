@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>screen 객체의 속성</title>
+    <script>
+        // screen 객체는 웹브라우저 화면이 아니라 운영체제 화면의 속성을 갖는 객체.
+        var output = '';
+        for(var key in screen) {
+            output += '*' + key + ': ' + screen[key] + '\n';
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
