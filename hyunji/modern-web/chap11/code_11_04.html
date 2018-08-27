@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>고전 이벤트 모델을 사용한 이벤트 연결</title>
+    <script>
+        window.onload = function () {
+            // 변수 선언
+            var header = document.getElementById('header');
+
+            // 이벤트 연결
+            header.onclick = function () {
+                alert('클릭');
+
+                // 이벤트 제거 - 이벤트가 한번 실행된 후에 제거하므로, 두번째 클릭부터 이벤트 발생안함.
+                header.onclick = null;
+            };
+        };
+    </script>
+</head>
+<body>
+    <h1 id="header">Click</h1>
+</body>
+</html>

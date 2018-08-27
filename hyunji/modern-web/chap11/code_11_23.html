@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 전달</title>
+    <style>
+        * { border: 3px solid black; }
+    </style>
+    <script></script>
+</head>
+<body>
+    <!-- p태그 클릭시 마우스 커서 좌표에 네 개의 태그가 있으므로 네 개의 태그에서 동시에 이벤트 발생 (= 버블링 방식) -->
+    <div onclick="alert('outer-div')">
+        <div onclick="alert('inner-div')">
+            <h1 onclick="alert('header')">
+                <p onclick="alert('paragraph')">Paragraph</p>
+            </h1>
+        </div>
+    </div>
+</body>
+</html>

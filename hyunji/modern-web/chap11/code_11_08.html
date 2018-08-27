@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 객체</title>
+    <script>
+        // 이벤트가 어디서 발생했는지, 타입은 무엇인지부터 시작해서 x좌표, y좌표 등 이벤트와 관련된 내용 출력.
+        window.onload = function () {
+            document.getElementById('header').onclick = function (e) {
+                // 이벤트 객체 설정
+                // e 가 존재하면 e를 event에 대입, 아니면, window.event 대입.
+                var event = e || window.event;
+
+                document.body.innerHTML = '';
+                for (var key in event) {
+                    document.body.innerHTML += '<p>' + key + ': ' + event[key] + '</p>';
+                }
+            };
+        };
+    </script>
+</head>
+<body>
+    <h1 id="header">Click</h1>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 핸들러 안에서의 this 키워드</title>
+    <script>
+        // this 키워드 - 이벤트가 발생한 객체 찾을 수 있다.
+        window.onload = function () {
+            document.getElementById('header').onclick = function () {
+                alert(this);
+            };
+        };
+    </script>
+</head>
+<body>
+    <h1 id="header">Click</h1>
+</body>
+</html>
