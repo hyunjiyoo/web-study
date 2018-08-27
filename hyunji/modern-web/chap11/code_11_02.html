@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 용어 연습</title>
+    <script>
+        /*
+        load - 이벤트 이름, 이벤트 타입
+        onload - 이벤트 속성
+        할당된 함수 - 이벤트 리스너, 이벤트 핸들러
+         */
+        window.onload = function () {
+            // 변수 선언
+            var header = document.getElementById('header');
+
+            function whenClick() { alert('CLICK'); }
+            /*
+            click - 이벤트 이름, 이벤트 타입
+            onclick - 이벤트 속성
+            whenClick() - 이벤트 리스너, 이벤트 핸들러
+             */
+            // 이벤트 연결 - 윈도우 객체와 header 객체
+            header.onclick = whenClick();
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>
