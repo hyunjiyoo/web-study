@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>location 객체의 속성</title>
+    <script>
+        // location 객체는 웹브라우저의 주소 표시줄과 관련된 객체.
+        // 프로토콜의 종류, 호스트 이름, 문서위치 등의 정보가 있다.
+        var output = '';
+        for(var key in location) {
+            output += '*' + key + ': ' + location[key] + '\n';
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
