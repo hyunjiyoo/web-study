@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체 배열의 사용</title>
+    <script>
+        window.onload = function () {
+            var headers = document.getElementsByTagName('h1');
+
+            headers[0].innerHTML = 'with getElementsByTagName1()';
+            headers[1].innerHTML = 'with getElementsByTagName2()';
+        };
+    </script>
+</head>
+<body>
+    <h1>Header</h1>
+    <h1>Header</h1>
+</body>
+</html>
