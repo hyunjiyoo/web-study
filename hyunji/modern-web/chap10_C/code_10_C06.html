@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>쿠키 관련 함수</title>
+    <script>
+        function setCookie(name, value, day) {
+            // 변수 선언
+            var date = new Date();
+            date.setDate(date.getDate() + day);
+
+            var willCookie = '';
+            willCookie += name + '=' + encodeURIComponent(value) + ';';
+            willCookie += 'expires=' + date.toUTCString() + '';
+
+            // 쿠키에 집어넣습니다.
+            document.cookie = willCookie;
+        }
+
+        function getCookie(name) {
+            // 변수 선언
+            var cookies = document.cookie.split(';');
+
+            // 쿠키 추출
+            for (var i in cookies) {
+                if (cookies[i].search(name) != -1) {
+                    return decodeURIComponent(cookies[i].replace(name + '=', ''));
+                }
+            }
+        }
+
+        function removeCookie(name) {
+            // 변수 선언
+            var date = new Date();
+            date.setDate(date.getDate() - 1);
+
+            var willCookie = '';
+            willCookie += name + '=remove;';
+            willCookie += 'expires=' + date.toUTCString();
+
+            // 쿠키에 집어넣습니다.
+            document.cookie = willCookie;
+        }
+    </script>
+    <script>
+        removeCookie('Cookie');
+        alert(getCookie('Cookie')); // Cookie 데이터 없으므로 undefined
+        setCookie('Cookie', 'Cheese', 7);
+        alert(getCookie('Cookie')); // Cheese 출력
+        removeCookie('Cookie');
+    </script>
+</head>
+<body>
+
+</body>
+</html>
