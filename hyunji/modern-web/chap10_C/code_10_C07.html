@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>head 태그 구성</title>
+    <!-- jQuery Cookie 플러그인 사용 준비 -->
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="jquery.cookie.js"></script>
+    <script>
+        $(document).ready(function () {
+            // 쿠키를 저장합니다.
+            $.cookie('MyKey', 'Hello');
+
+            // 쿠키를 읽습니다.
+            alert($.cookie('MyKey')); // Hello
+
+            // 쿠키를 삭제합니다.
+            $.cookie('MyKey', null);
+
+            // 출력합니다.
+            alert(document.cookie); // null
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

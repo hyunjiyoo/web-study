@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체 연결</title>
+    <script>
+        window.onload = function () {
+            var header = document.createElement('h1');
+            var textNode = document.createTextNode('Hello DOM');
+
+            // 노드 연결
+            header.appendChild(textNode);
+            document.body.appendChild(header);
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>

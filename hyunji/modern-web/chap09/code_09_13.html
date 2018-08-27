@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 페이지 생성 순서2</title>
+    <script>
+        // <script>태그가 위에 있지만, onload 이벤트 속성 사용했기 때문에 HTML 페이지 모두 출력된후 실행.
+        window.onload = function () {
+            alert('Process = 0');
+        };
+    </script>
+</head>
+<body>
+    <h1>Process - 1</h1>
+    <h1>Process - 2</h1>
+</body>
+</html>

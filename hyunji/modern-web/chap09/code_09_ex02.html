@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9장 연습문제-02</title>
+    <script>
+        // 페이스북 공유 링크 팝업 출력.
+        var child = window.open(
+            'https://www.facebook.com/share.php?u= ' + encodeURIComponent('http://naver.com'),
+            'child',
+            'width=900, height=600',
+            false);
+
+        if (!child) {
+            alert('팝업 차단을 해제해주세요.');
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementsByTagName() 메서드</title>
+    <script>
+        // tagName 으로 가져온 문서객체는 배열로 저장되므로, for문 사용 가능.
+        window.onload = function () {
+            var headers = document.getElementsByTagName('h1');
+            for (var i = 0; i < headers.length; i++) {
+                // 문서 객체의 속성 변경
+                headers[i].innerHTML = 'with getElementByTagName()';
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1>Header</h1>
+    <h1>Header</h1>
+    <h1>Header</h1>
+</body>
+</html>

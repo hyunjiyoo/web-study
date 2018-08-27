@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>쿠키 생성</title>
+    <script>
+        var date = new Date();
+        date.setDate(date.getDate() + 7);
+
+        var willCookie = '';
+        willCookie += 'CookieName=Value;';
+        willCookie += 'expires=' + date.toUTCString();
+
+        // 쿠키에 넣습니다.
+        document.cookie = willCookie;
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>쿠키 다섯개 생성</title>
+    <script>
+        var date = new Date();
+        date.setDate(date.getDate() + 7);
+
+        // 5번 반복
+        for (var i = 0; i < 5; i++) {
+            var willCookie = '';
+            willCookie += 'Name' + i + '=Value;';
+            willCookie += 'expires=' + date.toUTCString();
+
+            // 쿠카에 집어넣습니다.
+            document.cookie = willCookie;
+        }
+
+        alert(document.cookie);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
