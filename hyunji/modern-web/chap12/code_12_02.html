@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 객체의 예외 처리</title>
+    <script>
+        function whenClick(e) {
+            // 이와 같은 방법으로 기본 예외 처리를 하기도 한다.
+            var event = window.event || e;
+            var willAlert = '';
+            willAlert += 'clientX: ' + event.clientX + '\n';
+            willAlert += 'clientY: ' + event.clientY + '\n';
+            alert(willAlert);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
