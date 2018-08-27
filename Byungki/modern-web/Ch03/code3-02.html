@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var date = new Date();
+        var hour = date.getHours();
+        var minute  = date.getMinutes();
+        var month = date.getMonth();
+
+        if (hour >= 12) {
+            alert("오후 입니다.");
+        }
+        if (hour < 12) {
+            alert("오전입니다.");
+        }
+        if (minute < 30) {
+            alert("30분 전입니다.");
+        }
+        if (minute > 30) {
+            alert("30분 이후입니다.");
+        }
+        if (3 > month && month >= 12) {
+            alert("겨울 입니다. (12월~3월)");
+        }
+        if (6 > month && month >= 3) {
+            alert("봄 입니다. (3월~6월)");
+        }
+        if (9 > month && month >= 7) {
+            alert("여름 입니다. (6월~9월)");
+        }
+        if (12 > month && month >= 9) {
+            alert("가을 입니다. (9월~12월)");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

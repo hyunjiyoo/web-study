@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var product = {
+            name: 'JS WindStorm',
+            price: '150,000원',
+            language: '한국어',
+            supportOS: 'Windows 32/64 bit',
+            subscription: true
+        };
+
+        var output = '';
+        for (var key in product) {
+            output += '#' + key + ': ' + product[key] + '\n';
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

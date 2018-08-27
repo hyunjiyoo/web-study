@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var numberFromLiteral = 273;
+        var numberFromObject = new Number(273);
+
+        if (numberFromLiteral.constructor == Number) {
+            alert('numberFromLiteral은 숫자 입니다.');
+        }
+
+        if (numberFromObject.constructor == Number) {
+            alert('numberFromObject는 숫자 입니다.');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

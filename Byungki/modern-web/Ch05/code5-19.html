@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function pythagoras(width, height) {
+            return Math.sqrt(width * width + height * height);
+        }
+        alert('가로 3, 세로4인 삼각형의 빗변: ' + pythagoras(3,4));
+
+        function square(x){
+            return x*x;
+        }
+        function pytha(width, height) {
+            return Math.sqrt(square(width) + square(height));
+        }
+        alert('[함수 2개 이용] 가로 5, 세로6인 삼각형의 빗변: ' + pytha(5, 6));
+
+        function innerPytha(width, height) {
+            function sq(x) {
+                return x*x;
+            }
+            return Math.sqrt(sq(width) + sq(height));
+        }
+        alert('[내부함수] 가로 10, 세로 12인 삼각형 빗변: ' + innerPytha(10,12));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

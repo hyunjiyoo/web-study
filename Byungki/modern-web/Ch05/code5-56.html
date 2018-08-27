@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function test(a, b, c, d) {
+            alert(`${a}:${b}:${c}:${d}`);
+        }
+
+        var array = [1, 2];
+
+        test(273, 52, ...array);
+
+        test(...array, ...array);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

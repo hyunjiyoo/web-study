@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var output = '';
+        var student = {
+            이름: '연하진',
+            국어: 92, 수학: 98, 영어: 96, 과학: 98
+        };
+
+        with(student){
+            output += '이름: ' + 이름 + '\n'; // student.이름 을 with 사용을 통해 간략화 ==> namespace 비슷
+            output += '국어: ' + 국어 + '\n';
+            output += '수학: ' + 수학 + '\n';
+            output += '영어: ' + 영어 + '\n';
+            output += '과학: ' + 과학;
+        }
+
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

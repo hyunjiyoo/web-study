@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var number1 = 0;
+        var number2 = 0;
+        var class1 = 0, class2 = 0, class3 = 0;
+        var avg = 0.0;
+
+        number1 = Number(prompt("숫자를 입력하세요."));
+        if (number1 >= 0){
+            if (number1 == 0) {
+                alert("0 입니다.");
+            }
+            else {
+                alert("양수 입니다.");
+            }
+        } else {
+            alert("음수 입니다.");
+        }
+
+        number2 = Number(prompt("숫자를 입력하세요."));
+        if((number2%2) == 0) {
+            alert("짝수 입니다.");
+        } else {
+            alert("홀수 입니다.");
+        }
+
+        class1 = Number(prompt("국어 성적을 입력하세요."));
+        class2 = Number(prompt("영어 성적을 입력하세요."));
+        class3 = Number(prompt("수학 성적을 입력하세요."));
+        avg = (class1 + class2 + class3) / 3;
+        if (avg > 40) {
+            if (avg > 70) {
+                alert("수 입니다.");
+            } else {
+                alert("우 입니다.");
+            }
+        } else {
+            alert("미 입니다.");
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
