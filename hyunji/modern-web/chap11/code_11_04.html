@@ -11,6 +11,9 @@
             // 이벤트 연결
             header.onclick = function () {
                 alert('클릭');
+
+                // 이벤트 제거 - 이벤트가 한번 실행된 후에 제거하므로, 두번째 클릭부터 이벤트 발생안함.
+                header.onclick = null;
             };
         };
     </script>
