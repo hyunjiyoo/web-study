@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>navigator 객체의 속성</title>
+    <script>
+        // navigator 객체는 웹 페이지를 실행하고 있는 브라우저에 대한 정보가 있습니다.
+        var output = '';
+        for(var key in navigator) {
+            output += '*' + key + ': ' + navigator[key] + '\n';
+        }
+        alert(output);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
