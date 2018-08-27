@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 연결의 예외처리</title>
+    <script>
+        // 브라우저마다 메서드 달라서 이와 같은 방식 사용했지만, 이러한 처리가 없다면 프로그램은 실행중 에러 발생
+        function registerEventListener(node, event, listener) {
+            if (node.addEventListener) {
+                // 파이어폭스, 크롬, 사파리, 오페라
+                node.addEventListener(event, listener, false);
+            } else if (node.attachEvent) {
+                // 인터넷 익스플로러
+                node.attachEvent('on' + event, listener);
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
