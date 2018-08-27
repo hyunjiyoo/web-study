@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>예외 객체의 속성</title>
+    <script>
+        // 자바스크립트는 배열의 크기가 한정되어 있어 예외 발생.
+        try {
+            var array = new Array(999999999999);
+        } catch(exception) {
+            var output = '';
+            for (var i in exception) {
+                output += i + ': ' + exception[i] + '\n';
+            }
+            alert(output);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
