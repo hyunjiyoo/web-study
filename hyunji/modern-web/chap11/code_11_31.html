@@ -7,6 +7,8 @@
         window.onload = function () {
             var header = document.getElementById('my-header');
 
+            // addEventListener(eventName, handler, useCapture)
+            // 이벤트 속성이 아닌 이름으로 매개변수 받는 것 주의!!
             header.addEventListener('click', function () {
                 this.innerHTML += '+';
             });
