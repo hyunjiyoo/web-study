@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로컬 저장소</title>
+    <script>
+        $(document).ready(function () {
+            // 로컬 저장소의 내용 출력
+            function printLocalStorage() {
+                // div 태그를 비웁니다.
+                $('div').empty();
+
+                // div 태그에 로컬 저장소의 내용을 출력합니다.
+                for (var key in localStorage) {
+                    $('<h1></h1>').html(key + ': ' + localStorage[key]).appendTo('div');
+                }
+            }
+
+            // 로컬 저장소를 사용합니다.
+            if (window.localStorage) {
+
+            } else {
+                alert('로컬 저장소를 사용할 수 없는 브라우저 입니다.');
+            }
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="key" />
+    <input type="text" id="value" />
+    <input type="button" value="저장" />
+    <div id="output"></div>
+</body>
+</html>
