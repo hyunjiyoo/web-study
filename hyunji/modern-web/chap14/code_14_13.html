@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>is() 메서드</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // is() - 문서 객체의 특징 판별
+        $(document).ready(function () {
+            $('h1').each(function () {
+                // 여기서 this는 'h1'이 아니라 class="select" 인 h1을 의미.
+                if ($(this).is('.select')) {
+                    $(this).css('background', 'orange');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 class="select">Header-0</h1>
+    <h1>Header-1</h1>
+    <h1 class="select">Header-2</h1>
+</body>
+</html>
