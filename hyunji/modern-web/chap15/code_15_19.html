@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체의 스타일 추가</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        /*
+        $(selector).css(name, value);
+        $(selector).css(name, function(index, style) { });
+        $(selector).css(object);
+         */
+        $(document).ready(function () {
+            // css(name, value)
+            $('h1').css('color', 'red');
+
+            // css(name, function(){})
+            var colorArray = ['pink', 'blue', 'purple'];
+            $('h2').css('color', function (index) {
+                return colorArray[index];
+            });
+
+            // css(object)
+            var colorArray2 = ['green', 'yellow', 'orange'];
+            $('h3').css({
+                color: function (index) {
+                    return colorArray2[index];
+                },
+                backgroundColor: 'black'
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Header-0</h1>
+    <h1>Header-1</h1>
+    <h1>Header-2</h1>
+
+    <h2>Header-0</h2>
+    <h2>Header-1</h2>
+    <h2>Header-2</h2>
+
+    <h3>Header-0</h3>
+    <h3>Header-1</h3>
+    <h3>Header-2</h3>
+</body>
+</html>
