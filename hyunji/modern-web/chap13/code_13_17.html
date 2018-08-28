@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>클래스 선택자</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.item').css('color', 'orange');
+            $('h1.item').css('background', 'red');
+
+            // item과 select 클래스 모두 가지는 객체
+            $('.item.select').css('color', 'green');
+        });
+    </script>
+</head>
+<body>
+    <h1 class="item">Header-0</h1>
+    <h1 class="item select">Header-1</h1>
+    <h1 class="item">Header-2</h1>
+</body>
+</html>
