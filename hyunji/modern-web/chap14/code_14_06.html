@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체 탐색 종료</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // 체이닝 사용하여 스타일 적용
+        // 하지만, 체이닝은 문서 객체의 범위를 점점 좁게만 선택.
+        $(document).ready(function () {
+            $('h3').css('background', 'orange').filter(':even').css('color', 'red');
+        });
+
+        $(document).ready(function () {
+            $('h3').css('background', 'orange');
+            $('h3:even').css('color', 'white');
+            $('h3:odd').css('color', 'red');
+        });
+    </script>
+</head>
+<body>
+    <h3>Header-0</h3>
+    <h3>Header-1</h3>
+    <h3>Header-2</h3>
+</body>
+</html>

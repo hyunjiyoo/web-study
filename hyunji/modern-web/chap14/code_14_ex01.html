@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14장 연습문제-01</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            // 3n+1의 위치에 있는 요소
+            $('h1').filter(function (index) {
+                return index % 3 == 1;
+            }).css('color', 'red'); // <h1> Header-1,4 </h1>
+
+            // 후손으로 h2 태그 가지고 있는 요소
+            $('div').find('h2').css('background', 'yellow'); // <h2> all </h2>
+        });
+
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Header-0</h1>
+        <h1>Header-1</h1>
+        <h1>Header-2</h1>
+    </div>
+    <div>
+        <h1>Header-3</h1>
+        <h1>Header-4</h1>
+        <h1>Header-5</h1>
+    </div>
+    <div>
+        <h2>Header-0</h2>
+        <h2>Header-1</h2>
+        <h2>Header-2</h2>
+    </div>
+    <div>
+        <h2>Header-3</h2>
+        <h2>Header-4</h2>
+        <h2>Header-5</h2>
+    </div>
+</body>
+</html>
