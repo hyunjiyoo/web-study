@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filter() 메서드의 매개변수로 함수를 넣을 경우</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // index가 3의 배수인 h3태그 선택해서 css 스타일 .적용
+        $(document).ready(function () {
+            $('h3').filter(function (index) {
+                return index % 3 == 0;
+            }).css({
+                backgroundColor: 'black',
+                color: 'white'
+            });
+        });
+    </script>
+</head>
+<body>
+    <h3>Header-0</h3>
+    <h3>Header-1</h3>
+    <h3>Header-2</h3>
+    <h3>Header-3</h3>
+    <h3>Header-4</h3>
+    <h3>Header-5</h3>
+</body>
+</html>
