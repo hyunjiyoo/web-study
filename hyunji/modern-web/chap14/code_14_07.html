@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>end() 메서드 사용한 체이닝</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // end() 메서드 - 문서객체 선택을 한 단계 뒤로 돌립니다.
+        // 그래서 짝수 선택하고, 홀수 선택할 수 있었던 것.
+        $(document).ready(function () {
+            $('h3').css('background', 'orange').filter(':even').css('color', 'white').end().
+            filter(':odd').css('color', 'red');
+        });
+    </script>
+</head>
+<body>
+    <h3>Header-0</h3>
+    <h3>Header-1</h3>
+    <h3>Header-2</h3>
+</body>
+</html>
