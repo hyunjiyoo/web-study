@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>특정 위치의 문서 객체 선택</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // eq() 메서드의 매개변수는 양수와 음수 모두 가능.
+        $(document).ready(function () {
+            $('h1').eq(0).css('background', 'orange'); // Header-0
+            $('h1').eq(-1).css('background', 'red'); // Header-2
+        });
+    </script>
+</head>
+<body>
+    <div>
+         <h1>Header-0</h1>
+         <h1>Header-1</h1>
+         <h1>Header-2</h1>
+    </div>
+</body>
+</html>
