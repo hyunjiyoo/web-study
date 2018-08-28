@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$.noConflict() 메서드 활용</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // 플러그인간의 충돌 제거
+        $.noConflict();
+
+        // jQuery 객체를 다른 변수에 저장해서 사용.
+        var J = jQuery;
+        J(document).ready(function () {
+            J('h1').removeClass('high-light');
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>자손 선택자</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // body 태그의 자식에만 범위를 한정해 전체가 선택 -> div 태그 선택
+        // div태그만 선택되어 스타일 적용. 하지만 div가 아래 전체를 묶는 태그이므로 글자색 모두 빨강
+        $(document).ready(function () {
+            $('body > *').css('color', 'red');
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Apple</li>
+            <li>Bag</li>
+            <li>Cat</li>
+            <li>Dog</li>
+            <li>Elephant</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>옵션 객체 초기화</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        var object = $.extend({ a: 10 }, { a: 20, b: 20 }, { c: 30 });
+
+        // 같은 이름의 속성이 있으면, 뒤의 매개변수에 넣은 객체의속성이 앞에 위치한 매개변수에 넣은 객체 속성을 덮어버림.
+        alert(JSON.stringify(object)); // a:20, b:20, c:30
+    </script>
+</head>
+<body>
+
+</body>
+</html>

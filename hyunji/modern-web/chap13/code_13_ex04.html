@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13장 연습문제-04</title>
+    <script src="jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+    </script>
+    <script>
+        var array = ['고구마', '감자', '배추', '고추'];
+
+        $.each(array, function (index, item) {
+            var output = '';
+            output += '    <h1>' + item + '</h1>';
+            document.body.innerHTML += output;
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

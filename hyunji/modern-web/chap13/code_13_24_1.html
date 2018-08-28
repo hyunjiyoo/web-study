@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>필터 선택자 예제</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[type="text"]').css('backgroundColor', 'yellow');
+
+            setTimeout(function () {
+                var value = $('body > input:checked').val();
+
+                alert(value);
+            }, 3000);
+
+        })
+    </script>
+</head>
+<body>
+    <input type="text" />
+    <input type="checkbox" value="red"/>red
+    <input type="checkbox" value="blue"/>blue
+    <input type="checkbox" value="green"/>green
+</body>
+</html>

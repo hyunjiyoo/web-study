@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$.extend() 메서드를 사용한 옵션 객체 보완</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // 앞에 기본값 객체 넣고, 뒤에 사용자정의 객체 넣어서 옵션 객체 보완.
+        function test(options) {
+            // 옵션 객체 초기화
+            options = $.extend({
+                // 기본값
+                valueA: 10,
+                valueB: 20,
+                valueC: 30
+            }, options);
+
+            alert(options.valueA + ':' + options.valueB + ':' + options.valueC);
+        }
+
+        // 함수 호출
+        test({
+            valueA: 52,
+            valueC: 273
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
