@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>특정 태그 선택 - find() 메서드</title>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        // find() - 특정 태그 선택 (XML 문서에서 데이터 추출할 때 많이 사용)
+
+        // XML 문자열 생성
+        var xml = '';
+        xml += '<friends>';
+        xml += '    <friend>';
+        xml += '        <name>연하진</name>';
+        xml += '        <language>Ruby</language>';
+        xml += '    </friend>';
+        xml += '    <friend>';
+        xml += '        <name>윤명월</name>';
+        xml += '        <language>Basic</language>';
+        xml += '    </friend>';
+        xml += '    <friend>';
+        xml += '        <name>윤하린</name>';
+        xml += '        <language>C#</language>';
+        xml += '    </friend>';
+        xml += '</friends>';
+
+        $(document).ready(function () {
+            // 문자열을 XML 문서객체로 변경
+            var xmlDoc = $.parseXML(xml);
+            // $(document) 형태 생각해서 $(xmlDoc) 이해
+            // find() 메서드로 <friend>태그 선택!
+            $(xmlDoc).find('friend').each(function (index) {
+                var output = '';
+                // <friend>태그 안에서 <name>, <language>태그의 text추출!!
+                output += '<div>';
+                output += '    <h1>' + $(this).find('name').text() + '</h1>';
+                output += '    <p>' + $(this).find('language').text() + '</p>';
+                output += '</div>';
+
+                document.body.innerHTML += output;
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
