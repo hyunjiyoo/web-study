@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html() 와 text()</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            // html() - HTML 태그 인식.
+            var html = $('h1').html();
+            alert(html); // Header-0
+
+            // text() - HTML 태그 인식하지 않음
+            var text = $('h1').text();
+            alert(text); // Header-0, Header-1, Header-2
+        })
+    </script>
+</head>
+<body>
+    <h1>Header-0</h1>
+    <h1>Header-1</h1>
+    <h1>Header-2</h1>
+</body>
+</html>
