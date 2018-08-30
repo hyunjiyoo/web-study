@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체 생성2</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $('<img />').attr('src', 'Chrysanthemum.jpg').appendTo('body');
+            $('<img />', {
+                src: 'Chrysanthemum.jpg',
+                width: 350,
+                height: 250,
+            }).appendTo('body');
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

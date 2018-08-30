@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>removeAttr() 메서드</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        // removeAttr() - 모든 속성 한번에 제거
+        // removeClass() - 여러개의 클래스 속성 중에서 선택적으로 제거.
+        $(document).ready(function () {
+            $('h1').removeAttr('data-index');
+        });
+    </script>
+</head>
+<body>
+    <h1 data-index="0">Header-0</h1>
+    <h1 data-index="1">Header-1</h1>
+    <h1 data-index="2">Header-2</h1>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>removeClass() 메서드</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        // removeClass() 매개변수에 아무것도 입력하지 않으면 문서객체의 모든 클래스 제거.
+        $(document).ready(function () {
+            $('h1').removeClass('select');
+        });
+    </script>
+</head>
+<body>
+    <h1 class="item">Header-0</h1>
+    <h1 class="item select">Header-1</h1>
+    <h1 class="item">Header-2</h1>
+</body>
+</html>

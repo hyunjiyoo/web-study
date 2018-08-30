@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html() 메서드 - setter</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('div').html(function (index) {
+                return '<h1>Header-' + index + '</h1>';
+            });
+        });
+    </script>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

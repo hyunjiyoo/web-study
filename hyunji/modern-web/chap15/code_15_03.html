@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addClass() 메서드</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            // addClass() 매개변수에 '문자열'입력.
+            $('h1').addClass('item');
+
+            // addClass() 매개변수에 '콜백함수'입력.
+            $('h1').addClass(function (index) {
+                return 'class' + index; // class0, class1, class2 차례로 추가
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Header-0</h1>
+    <h1>Header-1</h1>
+    <h1>Header-2</h1>
+</body>
+</html>
