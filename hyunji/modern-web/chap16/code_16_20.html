@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>trigger() 메서드 사용한 매개변수 전달</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('h1').click(function (event, data1, data2) {
+                alert(data1 + ' : ' + data2);
+            });
+
+            // 이벤트 강제 발생
+            // eq() - 특정 위치에 존재하는 문서객체 선택.
+            $('h1').eq(1).trigger('click', [273,52]);
+        });
+    </script>
+</head>
+<body>
+    <h1>Start: </h1>
+    <h1>Start: </h1>
+</body>
+</html>
