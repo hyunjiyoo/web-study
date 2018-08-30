@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15장 연습문제-02</title>
+    <script src="../jquery-3.3.1.js"></script>
+
+    <!-- 보조 함수 -->
+    <script>
+        // 랜덤한 정수 생성
+        function nextRandomInteger(limit) {
+            return Math.round(Math.random() * limit);
+        }
+        // 랜덤한 알파벳 리턴
+        var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        function randomAlphabet() {
+            return alphabet.charAt(nextRandomInteger(25));
+        }
+        // 양수와 음수로 랜덤한 속도 생성하는 함수
+        function randomSpeed(maxSpeed) {
+            return Math.random() * maxSpeed - Math.random() * maxSpeed;
+        }
+    </script>
+
+    <!-- 생성자 함수 -->
+    <script>
+        // MovingText 생성자 함수
+        var canvasWidth = 700;
+        var canvasHeight = 400;
+
+        function MovingText() {
+            // 위치와 속도 속성
+            this.x = nextRandomInteger(canvasWidth);
+            this.y = nextRandomInteger(canvasHeight);
+            this.vx = randomSpeed(10);
+            this.vy = randomSpeed(10);
+
+            // ** 문서 객체 생성
+            this.$header = $('<h1></h1>').text(randomAlphabet()).css('position', 'absolute').appendTo('body');
+
+            // ** 문서 객체를 body에 추가
+            $('h1').appendTo('body');
+        }
+
+        MovingText.prototype.move = function () {
+            // 범위 검사
+            if (this.x < 0 || this.x > canvasWidth) { this.vx *= -1; }
+            if (this.y < 0 || this.y > canvasHeight) { this.vy *= -1; }
+            // 이동
+            this.x += this.vx;
+            this.y += this.vy;
+
+            // ** 화면에 이동 표시
+            this.$header.css({
+                left: this.x,
+                top: this.y
+            })
+        };
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var movingTexts = [];
+
+            // 배열에 MovingText 객체 100개 생성
+            for (var i = 0; i < 100; i++ ) {
+                movingTexts.push(new MovingText());
+            }
+
+            // 움직입니다.
+            setInterval(function () {
+                for (var i in movingTexts) {
+                    movingTexts[i].move();
+                }
+            }, 1000 / 30);
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
