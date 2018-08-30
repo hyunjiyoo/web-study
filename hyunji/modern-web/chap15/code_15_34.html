@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문서 객체 생성</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $() 메서드 매개변수에 HTML태그를 문자열로 넣기만 하면 문서 객체 생성
+            // html() 메서드로 문자열 추가
+            // appendTo() 로 body태그에 연결.
+            $('<h1></h1>').html('Hello world..!').appendTo('body');
+            $('<h1>Hello world</h1>').appendTo('body');
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
