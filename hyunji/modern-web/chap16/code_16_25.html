@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>return false</title>
+    <title>stopPropagation()</title>
+    <style>
+        * {
+            margin: 5px; padding: 5px;
+            border: 3px solid black;
+        }
+    </style>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a').click(function (event) {
+                $(this).css('background-color', 'blue');
+                /* jQuery는 return false; 사용시 두 가지 모두 제거.(자바스크립트는 기본 이벤트만 제거)
+                event.stopPropagation();
+                event.preventDefault();
+                */
+                return false;
+            });
+
+            $('h1').click(function () {
+                $(this).css('background-color', 'red');
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>
+        <a href="http://hanbit.co.kr">Hanb Media</a>
+    </h1>
+</body>
+</html>
