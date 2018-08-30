@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scroll 이벤트 연결</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            // 윈도우 객체는 별도의 선택자가 없으므로, 곧바로 문서 객체에 넣는다.
+            // 무한 스크롤은 화면 끝까지 스크롤이 도달했다는 사실 인식해야함.
+            // document.height = window.scrollTop + window.height
+            $(window).scroll(function () {
+                var scrollHeight = $(window).scrollTop() + $(window).height();
+                var documentHeight = $(document).height();
+
+                // 스크롤이 끝까지 닿으면 자동으로 h1태그 10개 추가.
+                if(scrollHeight == documentHeight) {
+                    for(var i = 0; i < 10; i++) {
+                        $('<h1>Infinity Scroll</h1>').appendTo('body');
+                    }
+                }
+            });
+        });
+
+        // 테스트를 위해 내부에 공간을 채워둡니다.
+        $(document).ready(function () {
+            for(var i = 0; i < 20; i++) {
+                $('<h1>Infinity Scroll</h1>').appendTo('body');
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
