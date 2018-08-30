@@ -6,6 +6,7 @@
     <script src="../jquery-3.3.1.js"></script>
     <script>
         $(document).ready(function () {
+            // 맨 위의 <h1>태그 클릭할때만 이벤트 연결
             $('h1').on('click', function () {
                 var length = $('h1').length;
                 var targetHTML = $(this).html();
