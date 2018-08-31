@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>캔버스 크기 강제 지정</title>
+    <style>
+        * { margin: 0px; padding: 0px; }
+        #canvas {
+            background: gray;
+            width: 600px;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+        .inner_box {
+            background: orange;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.inner_box').each(function (index) {
+                $(this).css({
+                    left: index * 90,
+                    top: index * 90
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Test Header</h1>
+    <div id="canvas">
+        <div class="inner_box"></div>
+        <div class="inner_box"></div>
+        <div class="inner_box"></div>
+        <div class="inner_box"></div>
+        <div class="inner_box"></div>
+    </div>
+    <h1>Test Header</h1>
+</body>
+</html>
