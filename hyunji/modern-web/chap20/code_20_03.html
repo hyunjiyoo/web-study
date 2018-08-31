@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery 객체의 fn속성</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        // 플러그인을 만듭니다.
+        $.fn.myPluginMethod = function (options) {
+            // 플러그인 메서드 내부에서 this 키워드는 선택자로 선택한 대상을 의미합니다.
+            $(this).css('color', 'white');
+            $(this).css('background', 'black');
+        };
+
+        $(document).ready(function () {
+            // 플러그인을 사용합니다.
+            // h1 태그의 글자에 스타일이 지정됩니다.
+            $('h1').myPluginMethod();
+        });
+    </script>
+</head>
+<body>
+    <h1>Header A</h1>
+    <h1>Header B</h1>
+</body>
+</html>

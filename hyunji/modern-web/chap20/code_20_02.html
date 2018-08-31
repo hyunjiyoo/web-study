@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>플러그인 사용</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        // 현재 페이지를 새로고침하는 reload 플러그인.
+        $.reload = function () {
+            // 2초마다 페이지를 새로고침합니다.
+            setInterval(function () {
+                location = location;
+            }, 2000)
+        };
+
+        // reload 플러그인 실행.
+        $(document).ready(function () {
+            $.reload();
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
