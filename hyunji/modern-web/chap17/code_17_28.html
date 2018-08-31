@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transition 속성 사용한 애니메이션</title>
+    <style>
+        .movement {
+            transition-duration: 2s;
+        }
+    </style>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('h1').click(function () {
+                $(this).css({
+                    // transition-duration: 2s 설정되어있어 배경색상이 2초동안 변경.
+                    backgroundColor: 'red'
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 class="movement">Animation</h1>
+</body>
+</html>

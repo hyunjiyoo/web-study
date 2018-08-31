@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>innerfade()</title>
+    <style>
+        * {
+            margin: 0px; padding: 0px;
+        }
+        ul {
+            list-style: none;
+        }
+        img {
+            width: 500px; height: 350px;
+        }
+    </style>
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="../jquery.innerfade.js"></script>
+    <script>
+        $(document).ready(function () {
+            /* innerfade 플러그인을 적용합니다.
+            - animationtype : 'fade', 'slide'
+            - speed : 'slow', 'normal', 'fade', 숫자
+            - timeout : 숫자 (변경 효과 적용 속도)
+            - type : 'sequence', 'random', 'random_start'
+            - containerheight : 'auto', 숫자
+            */
+            $('#inner-fade').innerfade({
+                animationtype: 'fade',
+                speed: 750,
+                timeout: 2000,
+                type: 'random',
+                containerheight: '350px'
+            });
+        });
+    </script>
+</head>
+<body>
+    <ul id="inner-fade">
+        <li><img src="img/penguin1.jpg" /></li>
+        <li><img src="img/penguin2.jpg" /></li>
+        <li><img src="img/penguin3.jpg" /></li>
+        <li><img src="img/penguin4.jpg" /></li>
+        <li><img src="img/penguin5.jpg" /></li>
+    </ul>
+</body>
+</html>

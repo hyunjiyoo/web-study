@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>toggle()</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        // 이벤트 연결
+        $(document).ready(function () {
+            // 이벤트 연결
+            $('button').click(function () {
+                // toggle(speed) - show()와 hied() 번갈아 실행.
+                // slideToggle(), fadeToggle() 같은 기능 수행.
+                $('.page').toggle('slow');
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Toggle Show</button>
+    <div class="page">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+</body>
+</html>

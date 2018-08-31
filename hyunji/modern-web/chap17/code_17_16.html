@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>delay()</title>
+    <style>
+        div {
+            width: 100px; height: 100px;
+            background-color: orange;
+            position: relative;
+        }
+    </style>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('div').each(function (index) {
+                // (index * 500)초 후 animate() 메서드를 실행합니다.
+                // div 객체 하나씩 오른쪽으로 이동.
+                $(this).delay(index * 500).animate({
+                    left: 500
+                }, 'slow');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
