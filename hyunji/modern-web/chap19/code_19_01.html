@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lightbox</title>
+    <link rel="stylesheet" href="colorbox.css" />
+    <script src="../jquery-3.3.1.js" ></script>
+    <script src="jquery.colorbox.js"></script>
+    <script>
+        $(document).ready(function () {
+            // rel 속성이 동일한 라이트박스는 그룹으로 묶여 슬라이드로 볼 수 있다.
+            /* colorbax 플러그인 옵션
+            transition - 라이트박스 생성방식 결정
+            opacity - 배경 투명도 지정
+            onOpen - 실행시 이벤트 지정
+            onClosed - 꺼질 때 이벤트 지정
+             */
+            $('a[rel="lightbox"]').colorbox({
+                transition: 'fade',
+                opacity: 0.8,
+                onOpen: function () {
+                    alert('실행되었습니다.');
+                },
+                onClose: function () {
+                    alert('닫힙니다.');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>jQuery LightBox</h1>
+    <!-- href 속성에 이미지 놓는다 -->
+    <!-- title 속성 : 라이트박스에 제목 표시 -->
+    <a rel="lightbox" title="Desert" href="img/Desert.jpg">Image-1</a>
+    <a rel="lightbox" title="Hydrangeas" href="img/Hydrangeas.jpg">Image-2</a>
+    <a rel="lightbox" title="Jellyfish" href="img/Jellyfish.jpg">Image-3</a>
+    <a rel="lightbox" title="Koala" href="img/Koala.jpg">Image-4</a>
+    <a rel="lightbox" title="Lighthouse" href="img/Lighthouse.jpg">Image-5</a>
+</body>
+</html>
