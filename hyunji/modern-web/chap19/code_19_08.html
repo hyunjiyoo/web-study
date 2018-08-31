@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>colorbox 플러그인 활용한 다이얼로그</title>
+    <link rel="stylesheet" href="colorbox.css" />
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="jquery.colorbox.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a').colorbox({
+                // inline - 내부 요소를 라이트박스로 만들지 지정.
+                inline:true,
+                width: 550
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>jQuery Colorbox</h1>
+    <a id="colorbox" href="#dialog">Dialog with Colorbox</a>
+
+    <!-- 다이얼 로그 -->
+    <div id="dialogs" style="display: none;">
+        <div id="dialog">
+            <h1>Auto OPEN Colorbox</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>colorbox 플러그인의 전역 메서드</title>
+    <link rel="stylesheet" href="colorbox.css" />
+    <script src="../jquery-3.3.1.js"></script>
+    <script src="jquery.colorbox.js"></script>
+    <script>
+        $(document).ready(function () {
+            // trigger() 메서드로 강제로 라이트박스 띄우고, 3초후에 자동 종료.
+            $('a').colorbox({
+                inline: true
+            }).click(function () {
+                // 3초 후에 함수 실행
+                setTimeout(function () {
+                    $.colorbox.close();
+                }, 3000);
+            }).trigger('click');
+        });
+    </script>
+</head>
+<body>
+    <h1>jQuery Colorbox</h1>
+    <a id="colorbox" href="#dialog">Dialog with Colorbox</a>
+
+    <!-- 다이얼로그 -->
+    <div id="dialogs" style="display:none;">
+        <div id="dialog">
+            <h1>Auto OPEN Colorbox</h1>
+            <p>이 라이트박스는 3초 후에 자동으로 사라집니다.</p>
+        </div>
+    </div>
+</body>
+</html>
