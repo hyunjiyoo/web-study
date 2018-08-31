@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>현재 상태 기준으로 한 상대적 애니메이션2</title>
+    <style>
+        div {
+            width: 50px; height: 50px;
+            background-color: orange;
+        }
+    </style>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+       $(document).ready(function () {
+          $('div').click(function () {
+              // animate() 메서드 사용
+              // += 와 -= 사용하면 상대적으로 속성 변한다.
+              // 사각형을 누르면 계속 50만큼 커진다.
+              $(this).animate({
+                  width: '+=50',
+                  height: '+=50'
+              }, 'slow');
+          }) ;
+       });
+    </script>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
