@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>context 객체 추출 및 이벤트 연결</title>
+    <script src="../jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            var canvas = document.getElementById('canvas');
+            var context = canvas.getContext('2d');
+
+            $(canvas).on({
+                mousedown: function (event) {
+                    // 위치를 얻어냅니다.
+                    var position = $(this).offset();
+                    // event.pageX,Y - 브라우저 화면 기준으로 X,Y위치
+                    var x = event.pageX - position.left;
+                    var y = event.pageY - position.top;
+
+                    // 마우스 누르면 선그리기 시작해서 움직임 받는다.
+                    context.beginPath();
+                    context.moveTo(x, y);
+                },
+                mouseup: function (event) {
+                    // 위치를 업어냅니다.
+                    var position = $(this).offset();
+                    var x = event.pageX - position.left;
+                    var y = event.pageY - position.top;
+
+                    // 마우스 떼면 라인이 실제로 그려지면 stroke이 생긴다.
+                    context.lineTo(x, y);
+                    context.stroke();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <canvas id ="canvas" width="700" height="400" style="border: 3px solid black">
+
+    </canvas>
+</body>
+</html>
