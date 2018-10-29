@@ -17,6 +17,9 @@ var items = [{
 var app = express();
 app.use(express.static('public'));
 
+// urlencoded() 메서드 - 일반적인 URL 인코딩 요청으로 오는 데이터를 자동으로 분해해주는 함수 리턴.
+app.use(bodyParser.urlencoded({ extended: false }));
+
 // 데이터 조회
 app.get('/products', function (request, response) {
     response.send(items);
@@ -112,8 +115,7 @@ app.del('/products/:id', function (request, response) {
     }
 });
 
-// urlencoded() 메서드 - 일반적인 URL 인코딩 요청으로 오는 데이터를 자동으로 분해해주는 함수 리턴.
-app.use(bodyParser.urlencoded({ extended: false }));
+
 
 // 웹 서버 실행
 app.listen(52273, function () {
