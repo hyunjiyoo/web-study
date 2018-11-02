@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getElementsByTagName() 메서드</title>
+    <script>
+        var request = new XMLHttpRequest();
+        if (request.status == 200) {
+            // 변수 선언
+            var xml = request.responseXML;
+
+            // 데이터 가공
+            var names = xml.getElementsByTagName('name');
+            var prices = xml.getElementsByTagName('price');
+            for (var i = 0; i < names.length; i++) {
+                var name = names[i].childNodes[0].nodeValue;
+                var price = prices[i].childNodes[0].nodeValue;
+                document.body.innerHTML += '<h1>' + name +'</h1>';
+                document.body.innerHTML += '<h2>' + price + '</h2>';
+            }
+        }
+        request.open('GET', 'public/data.xml', true);
+        request.send();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
