@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>XMLHttpRequest 객체의 onreadystatechange 이벤트</title>
+    <title>비동기방식을 사용한 Ajax 요청 1</title>
     <script>
         var request = new XMLHttpRequest();
         request.onreadystatechange = function(event) {
-            // 출력합니다.
-            alert(request.readyState);
+            if (request.readyState == 4) {
+                document.body.innerHTML += request.responseText;
+            }
         };
-        // 비동기 GET방식
         request.open('GET', 'public/data.html', true);
         request.send();
     </script>
