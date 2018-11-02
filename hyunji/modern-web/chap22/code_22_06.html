@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>동기방식일때 send() 메서드에 소비되는 시간 측정</title>
+    <script>
+        // XMLHttpRequest 객체 생성
+        var request = new XMLHttpRequest();
+        request.open('GET', '/data.html', false);
+
+        // send()메서드에 소비되는 시간 측정
+        var prevDate = new Date();
+        request.send();
+        var nowDate = new Date();
+
+        // 출력
+        alert(nowDate - prevDate);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
