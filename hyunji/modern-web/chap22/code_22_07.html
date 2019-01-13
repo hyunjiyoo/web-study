@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XMLHttpRequest 객체의 onreadystatechange 이벤트</title>
+    <script>
+        var request = new XMLHttpRequest();
+        request.onreadystatechange = function(event) {
+            // 출력합니다.
+            alert(request.readyState);
+        };
+        // 비동기 GET방식
+        request.open('GET', 'public/data.html', true);
+        request.send();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

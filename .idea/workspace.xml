@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42ec7cf4-5e68-4910-941e-254db61fa8c0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/web_study$Live_Edit.dat" NAME="Live Edit Coverage Results" MODIFIED="1534226530501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="133" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="919958826">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="32" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="html" value="501" />
+          <entry key="js" value="22" />
+          <entry key="json" value="1" />
+          <entry key="md" value="4" />
+          <entry key="ts" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="501" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="22" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="TypeScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="327" />
+          <entry key="html" value="115407" />
+          <entry key="js" value="7806" />
+          <entry key="md" value="1190" />
+          <entry key="txt" value="3478" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="327" />
+          <entry key="HTML" value="115408" />
+          <entry key="JavaScript" value="7805" />
+          <entry key="Markdown" value="1181" />
+          <entry key="PLAIN_TEXT" value="3487" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="5" />
+          <entry key="git.branch.create.new" value="2" />
+          <entry key="git.branch.delete.local" value="1" />
+          <entry key="git.branch.delete.remote" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_31.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_32.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2415">
+              <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_02.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_05.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap14/code_14_17.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap14/code_14_07.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap15/code_15_26.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap15/code_15_40.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_03.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap20/pivot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1955">
+              <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Int</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap16/code_16_34.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap16/code_16_36.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap16/code_16_40.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap16/code_16_41.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap16/code_16_42.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_02.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_04.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_08.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_10.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_!2.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_12.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_13.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_15.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_16.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_17.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_20.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_23.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_27.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_28.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap18/code_18_02.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap18/code_18_07.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap19.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_01.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_08.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_10.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_13.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_01.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_02.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_03.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_07.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap20/pivot.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_01.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_03.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_03.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_05.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_07.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_09.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_11.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_12.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_13.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/public/code_21_13.html" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_13.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_17.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_18.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_20.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_28.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_30.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_31.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_32.js" />
+        <option value="$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_02.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/body-parser/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/body-parser/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/body-parser/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/body-parser/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/body-parser/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/express/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/raw-body/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/raw-body/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/raw-body/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/send/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/hyunji/modern-web/chap21/node_modules/verror/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-study" type="462c0819:PsiDirectoryNode" />
+              <item name="hyunji" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-study" type="462c0819:PsiDirectoryNode" />
+              <item name="hyunji" type="462c0819:PsiDirectoryNode" />
+              <item name="modern-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-study" type="462c0819:PsiDirectoryNode" />
+              <item name="hyunji" type="462c0819:PsiDirectoryNode" />
+              <item name="modern-web" type="462c0819:PsiDirectoryNode" />
+              <item name="chap06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web-study" type="462c0819:PsiDirectoryNode" />
+              <item name="hyunji" type="462c0819:PsiDirectoryNode" />
+              <item name="modern-web" type="462c0819:PsiDirectoryNode" />
+              <item name="chap21" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/hitlab_edu/gmooc/web/example/proj_1.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\modern-web\chap21\public" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\univ-web" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\chap02\css" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\chap01\ch08" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\chap01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\modern-web\chap18" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\modern-web\chap17" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.code_21_02.js">
+    <configuration name="Live Edit" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/web-study/hyunji/ch03/code_03_012.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="code_20_02.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-study/hyunji/modern-web/chap20/code_20_02.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="code_20_03.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-study/hyunji/modern-web/chap20/code_20_03.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="code_20_07.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-study/hyunji/modern-web/chap20/code_20_07.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="code_21_01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-study/hyunji/modern-web/chap21/code_21_01.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="code_21_02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="code_21_02.js" working-dir="$PROJECT_DIR$/hyunji/modern-web/chap21">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Live Edit" />
+      <item itemvalue="JavaScript Debug.code_20_02.html" />
+      <item itemvalue="JavaScript Debug.code_20_03.html" />
+      <item itemvalue="JavaScript Debug.code_20_07.html" />
+      <item itemvalue="JavaScript Debug.code_21_01.html" />
+      <item itemvalue="Node.js.code_21_02.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.code_21_02.js" />
+        <item itemvalue="JavaScript Debug.code_21_01.html" />
+        <item itemvalue="JavaScript Debug.code_20_07.html" />
+        <item itemvalue="JavaScript Debug.code_20_03.html" />
+        <item itemvalue="JavaScript Debug.code_20_02.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42ec7cf4-5e68-4910-941e-254db61fa8c0" name="Default Changelist" comment="" />
+      <created>1534219159836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534219159836</updated>
+      <workItem from="1534219161090" duration="5628000" />
+      <workItem from="1534225259237" duration="162000" />
+      <workItem from="1534225453299" duration="729000" />
+      <workItem from="1534226206093" duration="4083000" />
+      <workItem from="1534230341392" duration="289000" />
+      <workItem from="1534230655183" duration="107000" />
+      <workItem from="1534230785238" duration="479000" />
+      <workItem from="1534231287626" duration="6550000" />
+      <workItem from="1534462508861" duration="57000" />
+      <workItem from="1534462592033" duration="496000" />
+      <workItem from="1534463113579" duration="24206000" />
+      <workItem from="1534510713260" duration="5000" />
+      <workItem from="1534578726339" duration="95000" />
+      <workItem from="1534586137825" duration="33000" />
+      <workItem from="1534600700337" duration="299000" />
+      <workItem from="1534657486455" duration="22008000" />
+      <workItem from="1534750023776" duration="21516000" />
+      <workItem from="1534778319320" duration="4370000" />
+      <workItem from="1534830126285" duration="1307000" />
+      <workItem from="1534996562869" duration="15160000" />
+      <workItem from="1535033867319" duration="598000" />
+      <workItem from="1535099726824" duration="19859000" />
+      <workItem from="1535267181804" duration="934000" />
+      <workItem from="1535278968530" duration="1887000" />
+      <workItem from="1535329915436" duration="35879000" />
+      <workItem from="1535418209693" duration="19614000" />
+      <workItem from="1535603922099" duration="15042000" />
+      <workItem from="1535678222741" duration="31208000" />
+      <workItem from="1535954392260" duration="8774000" />
+      <workItem from="1536582627864" duration="1986000" />
+      <workItem from="1538649681647" duration="350000" />
+      <workItem from="1538743298278" duration="115000" />
+    </task>
+    <task id="LOCAL-00240" summary="off()">
+      <created>1535616353701</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1535616353701</updated>
+    </task>
+    <task id="LOCAL-00241" summary="mouseover와 mouseenter">
+      <created>1535616753676</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1535616753676</updated>
+    </task>
+    <task id="LOCAL-00242" summary="keyup()">
+      <created>1535617257970</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1535617257970</updated>
+    </task>
+    <task id="LOCAL-00243" summary="글자 개수에 따른 스타일 변경">
+      <created>1535617463024</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1535617463024</updated>
+    </task>
+    <task id="LOCAL-00244" summary="무한 스크롤">
+      <created>1535618116149</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1535618116149</updated>
+    </task>
+    <task id="LOCAL-00245" summary="submit()이벤트와 기본 이벤트 제거">
+      <created>1535618439112</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1535618439112</updated>
+    </task>
+    <task id="LOCAL-00246" summary="check 속성 변경">
+      <created>1535618752953</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1535618752953</updated>
+    </task>
+    <task id="LOCAL-00247" summary="화살표함수 사용주의">
+      <created>1535619042188</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1535619042188</updated>
+    </task>
+    <task id="LOCAL-00248" summary="toggle()">
+      <created>1535681211654</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1535681211654</updated>
+    </task>
+    <task id="LOCAL-00249" summary="animate()">
+      <created>1535681645545</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1535681645545</updated>
+    </task>
+    <task id="LOCAL-00250" summary="현재 상태 기준으로 한 상대적 애니메이션1">
+      <created>1535681990034</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1535681990035</updated>
+    </task>
+    <task id="LOCAL-00251" summary="현재 상태 기준으로 한 상대적 애니메이션2">
+      <created>1535682402170</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1535682402170</updated>
+    </task>
+    <task id="LOCAL-00252" summary="애니메이션 큐">
+      <created>1535682724109</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1535682724109</updated>
+    </task>
+    <task id="LOCAL-00253" summary="clearQueue()">
+      <created>1535683129311</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1535683129311</updated>
+    </task>
+    <task id="LOCAL-00254" summary="stop()">
+      <created>1535684079415</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1535684079415</updated>
+    </task>
+    <task id="LOCAL-00255" summary="delay()">
+      <created>1535684322992</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1535684322992</updated>
+    </task>
+    <task id="LOCAL-00256" summary="ui plugin">
+      <created>1535684718324</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1535684718324</updated>
+    </task>
+    <task id="LOCAL-00257" summary="색생 변환 애니메이션">
+      <created>1535684987201</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1535684987201</updated>
+    </task>
+    <task id="LOCAL-00258" summary="easing 속성을 사용한 animate()">
+      <created>1535685469768</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1535685469768</updated>
+    </task>
+    <task id="LOCAL-00259" summary="innerfade()">
+      <created>1535689145449</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1535689145449</updated>
+    </task>
+    <task id="LOCAL-00260" summary="transition 속성 사용한 애니메이션">
+      <created>1535689470778</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1535689470778</updated>
+    </task>
+    <task id="LOCAL-00261" summary="캔버스의 position속성과 overflow 속성">
+      <created>1535690498894</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1535690498894</updated>
+    </task>
+    <task id="LOCAL-00262" summary="이미지 슬라이더">
+      <created>1535697799626</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1535697799626</updated>
+    </task>
+    <task id="LOCAL-00263" summary="colorbox plugin">
+      <created>1535699388959</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1535699388959</updated>
+    </task>
+    <task id="LOCAL-00264" summary="colorbox plugin option">
+      <created>1535700600551</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1535700600551</updated>
+    </task>
+    <task id="LOCAL-00265" summary="colorbox 플러그인 활용한 다이얼로그">
+      <created>1535701100383</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1535701100383</updated>
+    </task>
+    <task id="LOCAL-00266" summary="colorbox 플러그인의 전역 메서드">
+      <created>1535701547492</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1535701547492</updated>
+    </task>
+    <task id="LOCAL-00267" summary="masonry plugin">
+      <created>1535703348041</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1535703348041</updated>
+    </task>
+    <task id="LOCAL-00268" summary="선택자를 사용하지 않는 플러그인 생성">
+      <created>1535703591496</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1535703591496</updated>
+    </task>
+    <task id="LOCAL-00269" summary="플러그인 사용">
+      <created>1535703851586</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1535703851586</updated>
+    </task>
+    <task id="LOCAL-00270" summary="사용자 정의 플러그인 사용">
+      <created>1535704264627</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1535704264627</updated>
+    </task>
+    <task id="LOCAL-00271" summary="pivot plugin">
+      <created>1535708904698</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1535708904698</updated>
+    </task>
+    <task id="LOCAL-00272" summary="CSV 형식">
+      <created>1535710738646</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1535710738646</updated>
+    </task>
+    <task id="LOCAL-00273" summary="nodejs 파일 실행">
+      <created>1535715721811</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1535715721811</updated>
+    </task>
+    <task id="LOCAL-00274" summary="nodejs 내부모듈">
+      <created>1535716414327</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1535716414327</updated>
+    </task>
+    <task id="LOCAL-00275" summary="request 모듈">
+      <created>1535717592800</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1535717592800</updated>
+    </task>
+    <task id="LOCAL-00276" summary="server.js">
+      <created>1535718686684</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1535718686684</updated>
+    </task>
+    <task id="LOCAL-00277" summary="node modules">
+      <created>1535718805571</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1535718805571</updated>
+    </task>
+    <task id="LOCAL-00278" summary="미들웨어">
+      <created>1535719492325</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1535719492326</updated>
+    </task>
+    <task id="LOCAL-00279" summary="미들웨어 데이터 전달">
+      <created>1535720884261</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1535720884261</updated>
+    </task>
+    <task id="LOCAL-00280" summary="미들웨어 활용">
+      <created>1535721109353</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1535721109353</updated>
+    </task>
+    <task id="LOCAL-00281" summary="static middleware">
+      <created>1535972669234</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1535972669235</updated>
+    </task>
+    <task id="LOCAL-00282" summary="router 미들웨어 사용">
+      <created>1535973314462</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1535973314462</updated>
+    </task>
+    <task id="LOCAL-00283" summary="라우트와 응답">
+      <created>1535973706484</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1535973706484</updated>
+    </task>
+    <task id="LOCAL-00284" summary="응답과 응답형식">
+      <created>1535977292457</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1535977292457</updated>
+    </task>
+    <task id="LOCAL-00285" summary="일반요청 매개변수">
+      <created>1535978212801</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1535978212801</updated>
+    </task>
+    <task id="LOCAL-00286" summary="동적 라우트">
+      <created>1535978774504</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1535978774504</updated>
+    </task>
+    <task id="LOCAL-00287" summary="npm install body-parser">
+      <created>1535978839053</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1535978839053</updated>
+    </task>
+    <task id="LOCAL-00288" summary="데이터 요청방식">
+      <created>1536584715715</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1536584715715</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="243825000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49928877" visible="true" weight="0.2889785" />
+      <window_info id="Structure" order="1" sideWeight="0.50071126" side_tool="true" weight="0.14210178" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3940256" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294964" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.6841398" weight="0.32716927" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32859176" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3158602" side_tool="true" weight="0.32805756" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.1590604" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="colorbox plugin option" />
+    <MESSAGE value="colorbox 플러그인 활용한 다이얼로그" />
+    <MESSAGE value="colorbox 플러그인의 전역 메서드" />
+    <MESSAGE value="masonry plugin" />
+    <MESSAGE value="선택자를 사용하지 않는 플러그인 생성" />
+    <MESSAGE value="플러그인 사용" />
+    <MESSAGE value="사용자 정의 플러그인 사용" />
+    <MESSAGE value="pivot plugin" />
+    <MESSAGE value="CSV 형식" />
+    <MESSAGE value="nodejs 파일 실행" />
+    <MESSAGE value="nodejs 내부모듈" />
+    <MESSAGE value="request 모듈" />
+    <MESSAGE value="server.js" />
+    <MESSAGE value="node modules" />
+    <MESSAGE value="미들웨어" />
+    <MESSAGE value="미들웨어 데이터 전달" />
+    <MESSAGE value="미들웨어 활용" />
+    <MESSAGE value="static middleware" />
+    <MESSAGE value="router 미들웨어 사용" />
+    <MESSAGE value="라우트와 응답" />
+    <MESSAGE value="응답과 응답형식" />
+    <MESSAGE value="일반요청 매개변수" />
+    <MESSAGE value="동적 라우트" />
+    <MESSAGE value="npm install body-parser" />
+    <MESSAGE value="데이터 요청방식" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터 요청방식" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_23.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_27.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap17/code_17_28.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap18/code_18_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap19.html" />
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap18/code_18_07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap19/masonry.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap19/code_19_13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_03.html" />
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap20/code_20_07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_09.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_28.js" />
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_12.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/public/code_21_13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_13.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_17.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_18.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_30.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_31.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_32.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_05.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap14/code_14_17.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap14/code_14_07.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap15/code_15_26.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap21/code_21_03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap20/pivot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hyunji/modern-web/chap15/code_15_40.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
