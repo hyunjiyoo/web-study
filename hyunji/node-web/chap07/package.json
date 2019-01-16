@@ -10,7 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ejs": "^1.0.0",
     "jade": "^1.11.0"
   }
 }
