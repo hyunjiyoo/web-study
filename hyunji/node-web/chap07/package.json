@@ -1,0 +1,16 @@
+{
+  "name": "chap07",
+  "version": "1.0.0",
+  "main": "code07_03.js",
+  "scripts": {
+    "start": "echo \"Start Test\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "jade": "^1.11.0"
+  }
+}
