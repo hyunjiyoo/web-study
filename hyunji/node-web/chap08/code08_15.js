@@ -1,3 +1,4 @@
+/****** router 모듈화 ******/
 var express = require('express');
 var app = express();
 
