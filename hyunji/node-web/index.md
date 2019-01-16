@@ -1,4 +1,10 @@
 ## index
+1. [chap03-05](#ch03)
+2. [chap06](#ch06)
+3. [chap07](#ch07)
+
+
+<a id="ch03"></a>
 #### chap03
 - 전역객체
 - time(), timeEnd()
@@ -21,6 +27,8 @@
 - EventEmitter() 객체 생성
 - 이벤트 생성 모듈 파일
 - 모듈 파일 실행 
+
+<a id="ch06"></a>
 #### chap06
 - url의 pathname 속성
 - POST 요청
@@ -39,4 +47,6 @@
 - POST 요청
 - 쿠키 생성 및 추출
 - 쿠키 분해
+
+<a id="ch07"></a>
 #### chap07
