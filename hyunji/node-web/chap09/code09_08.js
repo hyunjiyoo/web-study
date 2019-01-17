@@ -27,7 +27,7 @@ app.get('/', function (req, res) {
            res.send(ejs.render(data, {
                data: results
            }));
-       }) ;
+       });
     });
 });
 
