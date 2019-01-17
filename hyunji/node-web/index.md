@@ -4,6 +4,8 @@
 3. [chap05](#ch05)
 4. [chap06](#ch06)
 5. [chap07](#ch07)
+6. [chap08](#ch08)
+7. [chap09](#ch09)
 
 
 <a id="ch03"></a>
@@ -56,3 +58,35 @@
 
 <a id="ch07"></a>
 #### chap07
+- jade 모듈
+- ejs 모듈
+- supervisor 모듈
+- forever 모듈
+
+<a id="ch08"></a>
+#### chap08
+- express 모듈
+- send() 메서드
+- 404 코드전달
+- User-Agent 추출
+- User-Agent 속성에 따른 응답
+- query 속성 사용한 요청 매개변수 추출
+- 미들웨어
+- 미들웨어 사용한 속성추가
+- app 객체의 메서드
+- 라우팅 매개변수 추출
+- 전체 선택자
+- router 모듈화
+- static 미들웨어 사용한 이미지 제공
+- morgan 미들웨어
+- cookie-parser 미들웨어
+- 서버 기본 설정
+- 기본 로그인 구현
+- connect-multiparty 미들웨어 - 이미지 등록
+- express-session 미들웨어
+- RESTful 웹서비스 개발
+
+<a id="ch09"></a>
+#### chap09
+- mysql 모듈
+- List Page 등록/수정/삭제
