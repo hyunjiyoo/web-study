@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
     <title>Web Chat</title>
-    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script>
         $(document).ready(function () {
@@ -17,6 +19,7 @@
                 output += '    <p>' + data.date + '</p>';
                 output += '</li>';
                 $(output).prependTo('#content');
+                $('#content').listview('refresh');
             });
 
             $('button').click(() => {
@@ -30,14 +33,28 @@
     </script>
 </head>
 <body>
-<h1>Socket.io Chat</h1>
-<p>Chat With Node.js</p>
-<hr />
-<input id="name" />
-<input id="message" />
-<button>BUTTON</button>
-<ul id="content">
+<div data-role="page">
+    <div data-role="header">
+        <h1>Socket.io Chat</h1>
+    </div>
+    <div data-role="content">
+        <h3>Nick Name</h3>
+        <input id="name" />
+        <a data-role="button" href="#chatpage">Start Chat</a>
+    </div>
+</div>
+<div data-role="page" id="chatpage">
+    <div data-role="header">
+        <h1>Socket.io Chat</h1>
+    </div>
+    <div data-role="content">
+        <input id="message" />
 
-</ul>
+        <button>BUTTON</button>
+        <ul id="content" data-role="listview" data-inset="true">
+
+        </ul>
+    </div>
+</div>
 </body>
 </html>
