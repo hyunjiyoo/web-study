@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f8fa615c-d026-4345-86ee-caf031015383" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1878350809">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="" value="1" />
+          <entry key="ejs" value="2" />
+          <entry key="html" value="45" />
+          <entry key="jade" value="12" />
+          <entry key="jpg" value="4" />
+          <entry key="js" value="112" />
+          <entry key="json" value="3" />
+          <entry key="md" value="4" />
+          <entry key="png" value="1" />
+          <entry key="pug" value="1" />
+          <entry key="txt" value="3" />
+          <entry key="www" value="2" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="EJS" value="2" />
+          <entry key="HTML" value="46" />
+          <entry key="Image" value="5" />
+          <entry key="JSON" value="3" />
+          <entry key="Jade" value="13" />
+          <entry key="JavaScript" value="114" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ejs" value="195" />
+          <entry key="html" value="5755" />
+          <entry key="jade" value="335" />
+          <entry key="js" value="28198" />
+          <entry key="json" value="33" />
+          <entry key="md" value="1242" />
+          <entry key="pug" value="187" />
+          <entry key="txt" value="1072" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="EJS" value="195" />
+          <entry key="HTML" value="5755" />
+          <entry key="JSON" value="33" />
+          <entry key="Jade" value="522" />
+          <entry key="JavaScript" value="28198" />
+          <entry key="Markdown" value="1242" />
+          <entry key="PLAIN_TEXT" value="1072" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.52696365">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage2.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="851">
+                  <caret line="37" selection-start-line="37" selection-end-line="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage3.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/code11_15.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/webChat/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="414">
+                  <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage4.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/code11_02.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage4.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/webChat/HTMLPage.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="782">
+                  <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap11/code11_14.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_20.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_17.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_08.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_09.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_10.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_11.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_12.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_13.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_14.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_15.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_16.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/router_module/index.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/router_module/routerA.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/router_module/routerB.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/router_module/routerC.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code_08_17.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_17.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_19.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_20.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_22.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/login.html" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_24.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_25.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_27.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/HTMLPage.html" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_31.js" />
+        <option value="$PROJECT_DIR$/node-web/chap08/code08_34.js" />
+        <option value="$PROJECT_DIR$/node-web/chap09/code09_03.js" />
+        <option value="$PROJECT_DIR$/node-web/chap09/list.html" />
+        <option value="$PROJECT_DIR$/node-web/chap09/insert.html" />
+        <option value="$PROJECT_DIR$/node-web/chap09/edit.html" />
+        <option value="$PROJECT_DIR$/node-web/chap09/code09_08.js" />
+        <option value="$PROJECT_DIR$/node-web/index.md" />
+        <option value="$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product.jade" />
+        <option value="$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product/insert.jade" />
+        <option value="$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product/index.jade" />
+        <option value="$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product/edit.jade" />
+        <option value="$PROJECT_DIR$/node-web/chap10/HelloExpress/app.js" />
+        <option value="$PROJECT_DIR$/node-web/chap10/HelloExpress/jadeLayout/app.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/code11_2.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/code11_02.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/HTMLPage.html" />
+        <option value="$PROJECT_DIR$/node-web/chap11/code11_!1.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/code11_11.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/HTMLPage2.html" />
+        <option value="$PROJECT_DIR$/node-web/chap11/code11_14.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/HTMLPage3.html" />
+        <option value="$PROJECT_DIR$/node-web/chap11/code11_15.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/HTMLPage4.html" />
+        <option value="$PROJECT_DIR$/node-web/chap11/webChat/app.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11/webChat/HTMLPage.html" />
+        <option value="$PROJECT_DIR$/node-web/chap11-2/app.js" />
+        <option value="$PROJECT_DIR$/node-web/chap11-2/chatting.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node-web/chap07/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node-web/chap10/HelloExpress/jadeLayout/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node-web/chap10/HelloExpress/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/body-parser/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/body-parser/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/body-parser/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/body-parser/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/body-parser/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/express/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/raw-body/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/raw-body/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/raw-body/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/send/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/modern-web/chap21/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node-web/chap07/package.json" />
+      <path value="$PROJECT_DIR$/node-web/chap10/HelloExpress/jadeLayout/package.json" />
+      <path value="$PROJECT_DIR$/node-web/chap10/HelloExpress/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hyunji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyunji" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hyunji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hyunji" type="462c0819:PsiDirectoryNode" />
+              <item name="node-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\node-web\chap08\router_module" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\modern-web\.idea" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\modern-web\chap24\public" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\modern-web\chap24" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\node-web\chap11" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\node-web\chap08" />
+      <recent name="C:\Users\yoohyunji\WebstormProjects\web-study\hyunji\node-web\chap08\router_module" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.Debug">
+    <configuration name="chatting.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hyunji/node-web/chap11-2/chatting.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Debug" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="node-web/chap11-2/chatting.html" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="code09_08.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="code09_08.js" working-dir="$PROJECT_DIR$/node-web/chap09">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/node-web/chap07/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/node-web/chap07/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Debug" />
+      <item itemvalue="JavaScript Debug.chatting.html" />
+      <item itemvalue="Node.js.code09_08.js" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.chatting.html" />
+        <item itemvalue="Node.js.code09_08.js" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8fa615c-d026-4345-86ee-caf031015383" name="Default Changelist" comment="" />
+      <created>1543050010799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543050010799</updated>
+      <workItem from="1543050012927" duration="613000" />
+      <workItem from="1543111681891" duration="1714000" />
+      <workItem from="1543204446803" duration="15275000" />
+      <workItem from="1543235667294" duration="317000" />
+      <workItem from="1543299645331" duration="38000" />
+      <workItem from="1547384545395" duration="4801000" />
+      <workItem from="1547442056832" duration="2024000" />
+      <workItem from="1547604597661" duration="39705000" />
+      <workItem from="1547690762311" duration="19030000" />
+      <workItem from="1547769834573" duration="18411000" />
+      <workItem from="1547892906148" duration="1225000" />
+    </task>
+    <task id="LOCAL-00038" summary="쿠키 생성 및 추출">
+      <created>1547624396249</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1547624396249</updated>
+    </task>
+    <task id="LOCAL-00039" summary="쿠키 분해">
+      <created>1547628559171</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1547628559171</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ejs 모듈">
+      <created>1547629564623</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1547629564623</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ejs 모듈2">
+      <created>1547629747690</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1547629747690</updated>
+    </task>
+    <task id="LOCAL-00042" summary="jade 모듈">
+      <created>1547630147016</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1547630147016</updated>
+    </task>
+    <task id="LOCAL-00043" summary="jade 모듈2">
+      <created>1547630812663</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1547630812663</updated>
+    </task>
+    <task id="LOCAL-00044" summary="supervisor 모듈 : 변경사항 자동실행">
+      <created>1547631115087</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1547631115087</updated>
+    </task>
+    <task id="LOCAL-00045" summary="index">
+      <created>1547631437876</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1547631437876</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Forever : 단일스레드 오류방지">
+      <created>1547632205240</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1547632205240</updated>
+    </task>
+    <task id="LOCAL-00047" summary=".">
+      <created>1547632740190</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1547632740190</updated>
+    </task>
+    <task id="LOCAL-00048" summary="express 모듈">
+      <created>1547637771177</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1547637771177</updated>
+    </task>
+    <task id="LOCAL-00049" summary="send() 메서드">
+      <created>1547638945719</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1547638945719</updated>
+    </task>
+    <task id="LOCAL-00050" summary="404 코드전달">
+      <created>1547639158786</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1547639158787</updated>
+    </task>
+    <task id="LOCAL-00051" summary="user-agent 추출">
+      <created>1547639512564</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1547639512564</updated>
+    </task>
+    <task id="LOCAL-00052" summary="user-agent 속성에 따른 응답">
+      <created>1547639704045</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1547639704045</updated>
+    </task>
+    <task id="LOCAL-00053" summary="index">
+      <created>1547640357975</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1547640357975</updated>
+    </task>
+    <task id="LOCAL-00054" summary="index">
+      <created>1547640455466</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1547640455466</updated>
+    </task>
+    <task id="LOCAL-00055" summary="query 속성사용한 요청매개변수 추출">
+      <created>1547640482977</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1547640482977</updated>
+    </task>
+    <task id="LOCAL-00056" summary="미들웨어">
+      <created>1547640753731</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1547640753731</updated>
+    </task>
+    <task id="LOCAL-00057" summary="미들웨어를 사용한 속성 추가">
+      <created>1547640960637</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1547640960637</updated>
+    </task>
+    <task id="LOCAL-00058" summary="app 객체의 메서드">
+      <created>1547644838621</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1547644838621</updated>
+    </task>
+    <task id="LOCAL-00059" summary="라우팅 매개변수 추출">
+      <created>1547645144309</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1547645144309</updated>
+    </task>
+    <task id="LOCAL-00060" summary="전체선택자">
+      <created>1547645296400</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1547645296400</updated>
+    </task>
+    <task id="LOCAL-00061" summary="router 모듈화">
+      <created>1547645659712</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1547645659712</updated>
+    </task>
+    <task id="LOCAL-00062" summary="router 모듈화">
+      <created>1547645851185</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1547645851185</updated>
+    </task>
+    <task id="LOCAL-00063" summary="router 모듈화">
+      <created>1547646458577</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1547646458577</updated>
+    </task>
+    <task id="LOCAL-00064" summary="static 미들웨어 사용한 이미지 제공">
+      <created>1547646885000</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1547646885000</updated>
+    </task>
+    <task id="LOCAL-00065" summary="morgan 미들웨어">
+      <created>1547647302293</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1547647302294</updated>
+    </task>
+    <task id="LOCAL-00066" summary="morgan 미들웨어 토큰">
+      <created>1547647437826</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1547647437826</updated>
+    </task>
+    <task id="LOCAL-00067" summary="cookie-parser 미들웨어">
+      <created>1547648005586</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1547648005587</updated>
+    </task>
+    <task id="LOCAL-00068" summary="서버 기본 설정">
+      <created>1547648413110</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1547648413110</updated>
+    </task>
+    <task id="LOCAL-00069" summary="기본적인 로그인 구현">
+      <created>1547648794492</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1547648794492</updated>
+    </task>
+    <task id="LOCAL-00070" summary="connect-multiparty 미들웨어 - 이미지파일 등록">
+      <created>1547650705985</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1547650705985</updated>
+    </task>
+    <task id="LOCAL-00071" summary="connect-multiparty 미들웨어 - 이미지파일 등록">
+      <created>1547650977716</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1547650977716</updated>
+    </task>
+    <task id="LOCAL-00072" summary="express-session 미들웨어">
+      <created>1547653328303</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1547653328303</updated>
+    </task>
+    <task id="LOCAL-00073" summary="RESTful 웹서비스 개발">
+      <created>1547694820736</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1547694820737</updated>
+    </task>
+    <task id="LOCAL-00074" summary="mysql 모듈">
+      <created>1547703313090</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1547703313090</updated>
+    </task>
+    <task id="LOCAL-00075" summary="List Page 전체코드">
+      <created>1547705847803</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1547705847804</updated>
+    </task>
+    <task id="LOCAL-00076" summary="index">
+      <created>1547716271359</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1547716271359</updated>
+    </task>
+    <task id="LOCAL-00077" summary="List Page 전체코드">
+      <created>1547716295558</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1547716295558</updated>
+    </task>
+    <task id="LOCAL-00078" summary="express 프레임워크">
+      <created>1547722560418</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1547722560418</updated>
+    </task>
+    <task id="LOCAL-00079" summary="socket.io 모듈">
+      <created>1547772909881</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1547772909882</updated>
+    </task>
+    <task id="LOCAL-00080" summary="public, broadcast 통신">
+      <created>1547774348064</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1547774348064</updated>
+    </task>
+    <task id="LOCAL-00081" summary="public, broadcast 통신">
+      <created>1547774395499</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1547774395499</updated>
+    </task>
+    <task id="LOCAL-00082" summary="public, broadcast 통신">
+      <created>1547774506060</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1547774506060</updated>
+    </task>
+    <task id="LOCAL-00083" summary="private 통신">
+      <created>1547776686303</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1547776686303</updated>
+    </task>
+    <task id="LOCAL-00084" summary="socket.io room/group 생성">
+      <created>1547782985886</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1547782985886</updated>
+    </task>
+    <task id="LOCAL-00085" summary="web chatting 구현">
+      <created>1547784028958</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1547784028958</updated>
+    </task>
+    <task id="LOCAL-00086" summary="web chatting 구현">
+      <created>1547785249577</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1547785249577</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103153000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1269002" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20108695" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.333713" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32859176" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32840237" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32859176" />
+      <window_info anchor="bottom" x="-1779" y="806" width="1704" height="119" id="Terminal" order="10" type="FLOATING" weight="0.41820768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14937212" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20108695" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32859176" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32840237" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32859176" />
+      <window_info anchor="bottom" x="-2112" y="75" width="1920" height="1040" id="Terminal" order="10" show_stripe_button="false" type="FLOATING" weight="0.41820768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="query 속성사용한 요청매개변수 추출" />
+    <MESSAGE value="미들웨어" />
+    <MESSAGE value="미들웨어를 사용한 속성 추가" />
+    <MESSAGE value="app 객체의 메서드" />
+    <MESSAGE value="라우팅 매개변수 추출" />
+    <MESSAGE value="전체선택자" />
+    <MESSAGE value="router 모듈화" />
+    <MESSAGE value="static 미들웨어 사용한 이미지 제공" />
+    <MESSAGE value="morgan 미들웨어" />
+    <MESSAGE value="morgan 미들웨어 토큰" />
+    <MESSAGE value="cookie-parser 미들웨어" />
+    <MESSAGE value="서버 기본 설정" />
+    <MESSAGE value="기본적인 로그인 구현" />
+    <MESSAGE value="connect-multiparty 미들웨어 - 이미지파일 등록" />
+    <MESSAGE value="express-session 미들웨어" />
+    <MESSAGE value="RESTful 웹서비스 개발" />
+    <MESSAGE value="mysql 모듈" />
+    <MESSAGE value="index" />
+    <MESSAGE value="List Page 전체코드" />
+    <MESSAGE value="express 프레임워크" />
+    <MESSAGE value="socket.io 모듈" />
+    <MESSAGE value="public, broadcast 통신" />
+    <MESSAGE value="private 통신" />
+    <MESSAGE value="socket.io room/group 생성" />
+    <MESSAGE value="web chatting 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="web chatting 구현" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/router_module/routerB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/router_module/routerC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/multipart/hmUa1YbxCuuW-FjBGieQ2V9o.jpg" />
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/multipart/cUaUda3QIRKGnLkDQO1CjlDQ.png" />
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/multipart/EkYYZH9Z9OP6hloYbg-35cqh.jpg" />
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_19.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_22.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_24.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_25.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_27.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_31.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/HTMLPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap06/code06_08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_34.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap09/insert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap09/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/node_modules/ejs/lib/ejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="351" selection-start-line="351" selection-end-line="351" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap09/code09_08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap09/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/bin/www">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/views/error.jade">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product.jade" />
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product/edit.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/views/product/insert.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/jadeLayout/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/jadeLayout/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap10/HelloExpress/jadeLayout/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap09/code09_03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/code11_11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11-2/app.js" />
+    <entry file="file://$PROJECT_DIR$/node-web/chap11-2/chatting.html" />
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/code11_15.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/code11_02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/HTMLPage4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/webChat/HTMLPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/code11_14.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap08/code08_17.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-web/chap11/webChat/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

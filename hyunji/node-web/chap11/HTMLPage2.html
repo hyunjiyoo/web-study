@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        window.onload = () => {
+            // 소켓 연결
+            var socket = io.connect();
+            // 소켓 이벤트 연결
+            socket.on('publicServer', (data) => {
+                alert('public: ' + data);
+            });
+            socket.on('broadcastServer', (data) => {
+                alert('broadcast: ' + data);
+            });
+
+            // 문서객체 이벤트 연결
+            document.getElementById('publicButton').onclick = () => {
+                var text = document.getElementById('publicText').value;
+                socket.emit('publicClient', text);
+            }
+            document.getElementById('broadcastButton').onclick = () => {
+                var text = document.getElementById('broadcastText').value;
+                socket.emit('broadcastClient', text);
+            }
+
+        }
+    </script>
+</head>
+<body>
+<h3>public 통신</h3>
+<input type="text" id="publicText" />
+<input type="button" id="publicButton" value="echo" />
+<h3>Broadcast 통신</h3>
+<input type="text" id="broadcastText" />
+<input type="button" id="broadcastButton" value="echo" />
+</body>
+</html>
